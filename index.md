@@ -53,7 +53,7 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 
 ### Demo
 
-<iframe id="introvideo" align="center" width="800" height="600" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1" frameborder="0"></iframe>
+<iframe id="introvideo" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
 
 ### Custom Maps Portal
 
