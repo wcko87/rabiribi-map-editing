@@ -19,9 +19,9 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1>Rabi-Ribi Map Editing</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2>A Guide to Rabi-Ribi Map Editing</h2>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
@@ -48,6 +48,27 @@
               .tar.gz file
             </a>
           {% endif %}
+          
+          <p>Download Links</p>
+          <ul>
+            <li>
+              </a>
+              <a href="https://ci.appveyor.com/project/wcko87/rbrb-map-converter/build/artifacts" class="button">
+                <small>Download</small>
+                Rabi-Ribi Map Converter
+              </a>
+            </li>
+            <li>
+              </a>
+              <a href="https://cdn.discordapp.com/attachments/304270436911284224/353697835788664832/rabiribi-tilesets.zip" class="button">
+                <small>Download</small>
+                Tileset files
+              </a>
+            </li>
+
+            <li><a href="http://www.mapeditor.org/">Tiled map editor</a></li>
+          </ul>
+
 
           {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
