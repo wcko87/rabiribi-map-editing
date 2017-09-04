@@ -14,6 +14,21 @@ How to use events
 * Then open up the corresponding map and go to that location and note down the event id.
 * Place that event id in the map to get a heal point.
 
+For some of the more technical events, some information may be found in the [events directory](./events)
+
 ## Item Basics:
 
 The [table of item ids](./items/item_ids.csv) can be found in the detailed docs.
+
+## Room Background/Type/Color Basics
+
+To modify these, make the corresponding layers visible and modify the name labels of the room tiles overlaid over the map.
+
+* Room colors and background ids can be found from these text files:
+  * [room_colors_original.txt](./room_colors_original.txt)
+  * [room_background_ids_original.txt](./room_background_ids_original.txt)
+  * Basically, these text files list the color/background being used in the original maps.
+  
+* Room type information can be found [here](./roomtypes.md)
+
+Note: you may need to restart the game for changes in room backgrounds/types/colors to take effect properly.
