@@ -21,8 +21,11 @@ In the rabiribi map converter directory, there are three folders:
 
 Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never be modified by the converter.
 - Double-clicking `original-to-editable.bat` will take all the maps in `s1_original_maps`, convert them to `.json` file format maps, and place them in `s2_editable_maps`.
+
 - You can open the `.json` file format maps in the tiled map editor, as long as the **tileset files are also placed in the same directory as the `.json` files**.
+
 - Double-clicking `editable_to_final.bat` will take all the maps in `s2_editable_maps`, convert them back to rabi ribi maps, and place them in `s3_final_maps`.
+
 - You can copy these `s3_final_maps` back into Rabi-Ribi to try them out. (maps are placed in the `Rabi-Ribi\data\area` folder in your steam directory)
 
 
@@ -95,7 +98,7 @@ A: A conversion error happens when you do something in Tiled that is not valid i
 
 [**Random Map Editor Images!**](random_images)
 
-<iframe id="introvideo" width="400" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
+<iframe id="introvideo" width="400" height="225" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
 
 ### Custom Maps
 
