@@ -34,8 +34,7 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 
 1. If you are deleting tiles, don't use the blank tiles in the tileset. actually erase them properly with the erase tool (E)
 
-2. Don't ever put collision tiles in the tile arrays or tile tiles (lol) in the collision array. I have no idea what happens if you do, and it probably won't be good
-(tile tiles refers to the stuff you see, collision tiles refer to map collision hitboxes)
+2. Don't ever put collision tiles in the tile layers (layer0 to layer6) or graphical tiles in the collision layer. I have no idea what happens if you do, and it probably won't be good.
 
 3. To create events and items, use the "rectangle" tool to create a 1-tile box where the event should be, and name the tile with the eventid. (the name can be set on the properties panel on the left). If done correctly, the event id should show up above the tile
 
@@ -84,7 +83,7 @@ More detailed information on these layers can be found in the [Detailed Document
 
 ### Demo
 
-[Random Map Editor Images!](random_images)
+[**Random Map Editor Images!**](random_images)
 
 <iframe id="introvideo" width="560" height="420" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
 
