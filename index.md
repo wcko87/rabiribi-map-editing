@@ -11,6 +11,8 @@ Download the following:
 2. These [Tileset files](https://cdn.discordapp.com/attachments/304270436911284224/353697835788664832/rabiribi-tilesets.zip)
 3. The [Tiled map editor](http://www.mapeditor.org/)
 
+![mapedit](https://user-images.githubusercontent.com/27341392/30008514-fea9b4f8-9152-11e7-9e5d-1bf9959714f6.png)
+
 ### How to use
 In the rabiribi map converter directory, there are three folders:
 1. `s1_original_maps`
@@ -50,6 +52,35 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 9. Don't mess with map settings like map size etc
 
 10. Press X to flip a tile by the x-axis, Y to flip by the y-axis. Do not rotate tiles. Do not flip collision tiles.
+
+# Understanding Events, Item Ids, Minimap tiles
+
+When you first open up the map editor, you might notice a lot of numbers.
+
+![mapeditor](https://user-images.githubusercontent.com/27341392/30008300-b79449c2-9150-11e7-8425-54c32eba09d3.png)
+
+These numbers belong to Object layers. There are five object layers.
+* `events`: Event Triggers. Most of the things that "happen" in game come from event tiles.
+
+  Events include, but is not limited to:
+  * Cutscene Start Triggers
+  * Boss Triggers
+  * Music Triggers
+  * Enemies, and other entities like springs, computers etc.
+  * Easter Eggs
+  * Save points, heal points, warp stones
+  * Bomb blocks, Hammer blocks, ribbon blocks
+  * Map transitions
+  * Environmental lighting effects
+  * etc etc etc...
+* `items`: Item ids. Only items exist in this layer.
+* `roombg`: The background for each room
+* `roomcolor`: The color of the minimap tile for the room
+* `roomtype`: Determines if the room is a single room, or a vertical/horizontal/large room, for camera scrolling.
+
+![unknown](https://user-images.githubusercontent.com/27341392/30008490-cf24761e-9152-11e7-94d2-955ab89621a7.png)
+
+More detailed information on these layers can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs).
 
 # Other Stuff
 
