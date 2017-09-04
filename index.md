@@ -41,7 +41,7 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 
 4. Do not name an event or tileid something that is not a number. it will cause the converter to crash
 
-5. Please turn on **view -> snapping -> Snap to Grid** (otherwise the events/items can be placed in floating positions, which will be awkward and doesn't actually convert properly)
+5. Please turn on [**view -> snapping -> Snap to Grid**](https://user-images.githubusercontent.com/27341392/30008566-5d1a0a60-9153-11e7-81cf-0d874c735f5c.png) (otherwise the events/items can be placed in floating positions, which will be awkward and doesn't actually convert properly)
 
 6. Minimap data layers (roomcolor, roomtype, roombg) are hidden by default. click the eye icon next to the layers to toggle on their visibility. they work similar to events/items. set their names to other integers to change their values.
 
@@ -59,7 +59,7 @@ When you first open up the map editor, you might notice a lot of numbers.
 
 ![mapeditor](https://user-images.githubusercontent.com/27341392/30008300-b79449c2-9150-11e7-8425-54c32eba09d3.png)
 
-These numbers belong to Object layers. There are five object layers.
+These numbers belong to Object layers. There are [five object layers](https://user-images.githubusercontent.com/27341392/30008490-cf24761e-9152-11e7-94d2-955ab89621a7.png).
 * `events`: Event Triggers. Most of the things that "happen" in game come from event tiles.
 
   Events include, but is not limited to:
@@ -78,13 +78,13 @@ These numbers belong to Object layers. There are five object layers.
 * `roomcolor`: The color of the minimap tile for the room
 * `roomtype`: Determines if the room is a single room, or a vertical/horizontal/large room, for camera scrolling.
 
-![unknown](https://user-images.githubusercontent.com/27341392/30008490-cf24761e-9152-11e7-94d2-955ab89621a7.png)
-
 More detailed information on these layers can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs).
 
 # Other Stuff
 
 ### Demo
+
+[Random Map Editor Images!](random_images.md)
 
 <iframe id="introvideo" width="560" height="420" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
 
