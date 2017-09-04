@@ -57,9 +57,9 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 
 <iframe id="introvideo" width="560" height="420" style="object-fit:cover" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/fT418LWsdc4?rel=0&autoplay=0&showinfo=1"></iframe>
 
-### Custom Maps Portal
+### Custom Maps
 
-https://wcko87.github.io/rabi-ribi-maps/
+[Custom Maps Portal](https://wcko87.github.io/rabi-ribi-maps/)
 
 ### Contact
 
