@@ -21,3 +21,5 @@ What some people did when messing around with the map editor...
 ![20170827144738_1](https://user-images.githubusercontent.com/27341392/30008680-8a69a998-9154-11e7-8b5e-220edcd6466a.jpg)
 
 ![20170902051410_1](https://user-images.githubusercontent.com/27341392/30008682-8a812866-9154-11e7-9744-ff32d282ce9f.jpg)
+
+![20170817222441_1](https://user-images.githubusercontent.com/27341392/30008840-e0a698f6-9155-11e7-8380-81e43f3bd8de.jpg)
