@@ -4,7 +4,7 @@ Brought to you by the [Rabi-Ribi Speedrunning Community](http://www.speedrun.com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.gg/dDfpNAr"><img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" height="20" />Rabi-Ribi Speedrunning Discord</a>
 
-## How to edit rabi ribi maps:
+# How to edit rabi ribi maps:
 ### Downloads
 Download the following:
 1. The [Rabi-Ribi Map Converter](https://ci.appveyor.com/project/wcko87/rbrb-map-converter/build/artifacts)
@@ -50,6 +50,8 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 9. Don't mess with map settings like map size etc
 
 10. Press X to flip a tile by the x-axis, Y to flip by the y-axis. Do not rotate tiles. Do not flip collision tiles.
+
+# Other Stuff
 
 ### Demo
 
