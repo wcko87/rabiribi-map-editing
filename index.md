@@ -82,6 +82,13 @@ These numbers belong to Object layers. There are [five object layers](https://us
 
 More detailed information on these layers can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs).
 
+# Modifying Character Dialogue and Cutscenes
+
+The 1.8e beta version of Rabi-Ribi includes the ability to modify cutscenes and character dialogue for custom maps. By default, the game makes use of the files in `Rabi-Ribi\localize` for its cutscenes. If you create the files `story_emot.rbrb` and `story_text.rbrb` and place them in your custom map folder (`Rabi-Ribi\custom\<your map name>\`) together with your map, these ifles will be used for dialogue/cutscenes instead.
+
+More information on the contents of these files can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs/cutscenes).
+
+
 # Frequently Asked Questions
 
 ##### Q: When I load a map in Tiled, I can't see any tiles at all! All I see are a bunch of numbers.
