@@ -88,3 +88,31 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **545 EV_NOBOSSMODE**
 
     If Erina passes this event, disable boss mode and remove screen scroll lock.
+
+- **546 EV_NOBOSSMODE2**
+    
+    If Erina passed this event, remove screen scroll lock.
+
+
+- **547 EV_DISABLEEVENT0**
+    
+    Disable effect of EV_DISABLEEVENT1 548
+
+- **548 EV_DISABLEEVENT1**
+    
+    If Erina passed this event, disable any event start (to prevent event  that unrelated to event tile 
+    from starting, for example Cicini's dialog after Erina pick up Air Jump) 
+
+- **549 EV_NOENDBOSSEVENT0**
+    
+    disable the effect of EV_NOENDBOSSEVENT1 550
+
+- **550 EV_NOENDBOSSEVENT1**
+    
+    If Erina passed this event, any town member boss will just teleport and leave after defeated by Erina. 
+    Instead of using the end boss cutscene. 
+
+- **551 EV_SETMUSICSPEED**
+    
+    IF Erina passed these events, change music speed to k%.
+    - k is the value of the X+1 tile (i.e. ID 5000 + k).
