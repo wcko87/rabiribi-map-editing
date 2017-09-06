@@ -1,6 +1,6 @@
 # Custom Cutscenes
 
-**Note: This only works in the Rabi-Ribi v1.8e**
+**Note: This only works in the Rabi-Ribi v1.8e beta (which includes support for the map editor)**
 
 In-game events start cutscenes. Cutscenes each have their own cutscene ID.
 The cutscene IDs can be seen above the block of text representing the cutscene.
