@@ -88,6 +88,9 @@ The 1.8e beta version of Rabi-Ribi includes the ability to modify cutscenes and 
 
 More information on the contents of these files can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs/cutscenes).
 
+# Debug Mode
+
+The 1.8e beta version of Rabi-Ribi contains a Debug mode, which displays all event triggers in-game. To turn this on, add `-debugshowevents` to the launch options.
 
 # Frequently Asked Questions
 
