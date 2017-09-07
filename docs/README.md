@@ -20,6 +20,8 @@ For some of the more technical events, some information may be found in the [eve
 
 The [table of item ids](./items/item_ids.csv) can be found in the detailed docs.
 
+Note: In the beta version 1.8e, picking up the Congratulations! trophy (item id 42) will display the time and end the game.
+
 ## Room Background/Type/Color Basics
 
 To modify these, make the corresponding layers visible and modify the name labels of the room tiles overlaid over the map.
