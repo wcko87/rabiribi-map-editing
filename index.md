@@ -8,7 +8,7 @@ Brought to you by the [Rabi-Ribi Speedrunning Community](http://www.speedrun.com
 ### Downloads
 Download the following:
 1. The [Rabi-Ribi Map Converter](https://ci.appveyor.com/project/wcko87/rbrb-map-converter/build/artifacts)
-2. These [Tileset files](https://cdn.discordapp.com/attachments/304270436911284224/353697835788664832/rabiribi-tilesets.zip)
+2. These [Tileset files](https://github.com/wcko87/rabiribi-map-editing/files/1283420/rabiribi-tilesets.zip)
 3. The [Tiled map editor](http://www.mapeditor.org/)
 
 ![mapedit](https://user-images.githubusercontent.com/27341392/30008514-fea9b4f8-9152-11e7-9e5d-1bf9959714f6.png)
