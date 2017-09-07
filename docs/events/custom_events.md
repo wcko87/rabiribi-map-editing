@@ -2,23 +2,23 @@
 
 These are events defined by GemaYue specifically for the map editor. These events only work in the beta version 1.8e.
 
-- **522 - EV_NOPFLAG0**
+- **522 EV_NOPFLAG0**
 
     Disables effect of EV_NOPFLAG1 523
 
-- **523 - EV_NOPFLAG1**
+- **523 EV_NOPFLAG1**
 
     If Erina passes this event, other event tile will always trigger even if the required flag(s) are not set.
 
-- **524 - EV_NOEVENT0**
+- **524 EV_NOEVENT0**
 
     Disable effect of  EVE_NOEVENT1 525 and EV_NOEVENT2 526
 
-- **525 - EV_NOEVENT1**
+- **525 EV_NOEVENT1**
 
     If Erina passes this event, other event tiles will just set the event flag instead of starting the event.
 
-- **526 - EV_NOEVENT2**
+- **526 EV_NOEVENT2**
 
     If Erina passes this event, other event tiles will just unset the event flag instead of starting the event.
 
@@ -116,3 +116,11 @@ These are events defined by GemaYue specifically for the map editor. These event
     
     IF Erina passed these events, change music speed to k%.
     - k is the value of the X+1 tile (i.e. ID 5000 + k).
+    
+- **552 EV_FULLAP**
+
+   If Erina passes this event, see amulet charge to full.
+
+- **553 EV_FULLBPMP**
+
+   If Erina passes this event, see Ribbon boost and mp to full.
