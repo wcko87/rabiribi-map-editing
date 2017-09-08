@@ -124,3 +124,29 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **553 EV_FULLBPMP**
 
    If Erina passes this event, see Ribbon boost and mp to full.
+
+- **554 EV_MOVEDOWN**
+
+    if erina passes this event, start a event that increase Erina's yaxis position by 720x4px. (repeatable)
+
+- **555 EV_MOVEUP**
+
+    if erina passes this event, start a event that decrease Erina's yaxis position by 720x4px. (repeatable)
+
+- **556 EV_SETSPIKEDMG**
+
+    IF Erina passes these events, set all spikes damage to k.
+    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
+    - If k = 0, disable this effect.
+
+- **557 EV_PLAYMUSIC**
+
+    IF Erina passes these events, play music ID k. (useful for playing music with ID>31)
+    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
+
+- **558 EV_CHANGEITEM**
+
+    IF Erina passes these events, set item ID k's Level to n. 
+    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
+    - n is the value of the X+2 tile. (i.e. ID 5000 + n)
+    - (If n is 0, remove the item)
