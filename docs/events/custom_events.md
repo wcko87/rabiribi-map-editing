@@ -38,8 +38,8 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **532 EV_GIVESTATUS**
 
     If Erina passes this event, it gives her buff ID m for n seconds.
-    - m is the value of the X+1 tile (i.e. ID 5000+m)
-    - n is the value of the X+2 tile (i.e. ID 5000+n)
+    - m is the value of the X+1 tile (i.e. eventID: 5000 + m)
+    - n is the value of the X+2 tile (i.e. eventID: 5000 + n)
 
 
 - **533 EV_NOSPAWN0**
@@ -53,14 +53,14 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **535 EV_NOSPAWN2**
 
     If Erina passes this event, replace any future spawned entity with entity ID k
-    - k is the value of the X+1 tile + 1000 (i.e. ID 5000 + k - 1000).
+    - k is the value of the X+1 tile + 1000 (i.e. eventID: 5000 + k - 1000).
     - (for example, for entity ID 1096, the value of the X+1 tile is 5096)
 
 
 - **536 EV_GAMESPEED**
 
     If Erina passes this event, change the game speed to k.
-    - k is the value of the X+1 tile (i.e. ID 5000+k)
+    - k is the value of the X+1 tile (i.e. eventID: 5000 + k)
     - If k=1, then 1x speed. If k=2, 2x speed, and so on.
     - If k>100, the game slows down instead
 
@@ -78,7 +78,7 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **543 EV_SETDIFFICULTY**
 
     If Erina passes this event, change game difficulty to k.
-    - k is the value of the X+1 tile (i.e. ID 5000+k)
+    - k is the value of the X+1 tile (i.e. eventID: 5000+k)
 
 
 - **544 EV_BOSSMODE**
@@ -115,7 +115,7 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **551 EV_SETMUSICSPEED**
     
     IF Erina passed these events, change music speed to k%.
-    - k is the value of the X+1 tile (i.e. ID 5000 + k).
+    - k is the value of the X+1 tile (i.e. eventID: 5000 + k).
     
 - **552 EV_FULLAP**
 
@@ -136,17 +136,17 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **556 EV_SETSPIKEDMG**
 
     IF Erina passes these events, set all spikes damage to k.
-    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
+    - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
     - If k = 0, disable this effect.
 
 - **557 EV_PLAYMUSIC**
 
     IF Erina passes these events, play music ID k. (useful for playing music with ID>31)
-    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
+    - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
 
 - **558 EV_CHANGEITEM**
 
     IF Erina passes these events, set item ID k's Level to n. 
-    - k is the value of the X+1 tile. (i.e. ID 5000 + k)
-    - n is the value of the X+2 tile. (i.e. ID 5000 + n)
+    - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
+    - n is the value of the X+2 tile. (i.e. eventID: 5000 + n)
     - (If n is 0, remove the item)
