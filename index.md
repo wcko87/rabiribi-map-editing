@@ -88,6 +88,10 @@ The 1.8e beta version of Rabi-Ribi includes the ability to modify cutscenes and 
 
 More information on the contents of these files can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs/cutscenes).
 
+# Custom Tilesets
+
+The 1.8e beta version of Rabi-Ribi includes the ability to replace the current tileset with a custom tileset. If `tile1_a.png` is placed in the `Rabi-Ribi\custom\<your map name>\` folder, the game will use that instead of the default tileset.
+
 # Debug Mode
 
 The 1.8e beta version of Rabi-Ribi contains a Debug mode, which displays all event triggers in-game. To turn this on, add `-debugshowevents` to the launch options.
