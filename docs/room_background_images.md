@@ -528,7 +528,7 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_122](https://user-images.githubusercontent.com/27341392/30235502-639754ce-953b-11e7-9700-35a2ca96dfba.jpg)
 
 ## 123
-- Town NPCs will behave like illusions in the Hall of Memory, attacking Erina.
+- Boss entities will behave like illusions in the Hall of Memory, attacking Erina.
 
 ![background_123](https://user-images.githubusercontent.com/27341392/30235501-6396920a-953b-11e7-9297-dc7da90f8a04.jpg)
 
