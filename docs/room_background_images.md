@@ -435,9 +435,9 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_100](https://user-images.githubusercontent.com/27341392/30235480-62d69d42-953b-11e7-8f26-92861dd3cdb1.jpg)
 
 ## 101
-- Tints all tiles, and tiles on layers 2, 6, and 0 become transparent. This is appparently also the Forgotten Cave II background? It only appears after a screen transition, though.
+- Tints all tiles, and tiles on layers 2, and 6 become transparent.
 
-![background_101](https://user-images.githubusercontent.com/27341392/30235482-62eb6704-953b-11e7-9f22-8d5ed3e3b3f9.jpg)
+![20170908221351_1](https://user-images.githubusercontent.com/19506837/30236240-1c975f36-94e3-11e7-8f20-79604815b3f0.jpg)
 
 ## 102
 
