@@ -361,9 +361,9 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_83](https://user-images.githubusercontent.com/27341392/30235463-62458b22-953b-11e7-8489-887e01760527.jpg)
 
 ## 84
-- The lights turn on and off, hiding and revealing tiles. Library tiles are still somewhat visible when the lights are out. The animated Library background is activated through event 346 (Enter Library), but activating it without recruiting all town members will warp the player to area 5. If area 5 does not exist, the player will be ejected into the death barrier.
+- The lights turn on and off, hiding and revealing tiles. Library tiles are still somewhat visible when the lights are out. The animated Library background is activated through event 346 (Enter Library), but activating it without recruiting all town members or passing through event 525 (NO EVENT 1) will warp the player to area 5. If area 5 does not exist, the player will be ejected into the death barrier.
 
-![background_84](https://user-images.githubusercontent.com/27341392/30235464-6252b09a-953b-11e7-9950-6cfe2f5f8e60.jpg)
+![20170908222329_1](https://user-images.githubusercontent.com/19506837/30236295-87fe4ab8-94e4-11e7-9dfa-5c340b775dc2.jpg)
 
 ## 85
 
@@ -383,9 +383,9 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_88](https://user-images.githubusercontent.com/27341392/30235469-62749f34-953b-11e7-8656-0f1f319093d6.jpg)
 
 ## 89
-- Same as 84.
+- All notes for 84 apply here, including event restrictions and requirements.
 
-![background_89](https://user-images.githubusercontent.com/27341392/30235468-62744476-953b-11e7-8424-ad873d1f0be5.jpg)
+![20170908222407_1](https://user-images.githubusercontent.com/19506837/30236304-c9bcd898-94e4-11e7-971c-050cd1776835.jpg)
 
 ## 90
 
