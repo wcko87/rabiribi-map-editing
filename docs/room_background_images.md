@@ -528,7 +528,7 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_122](https://user-images.githubusercontent.com/27341392/30235502-639754ce-953b-11e7-9700-35a2ca96dfba.jpg)
 
 ## 123
-- NPCs will behave like illusions in the Hall of Memory, attacking Erina.
+- Town NPCs will behave like illusions in the Hall of Memory, attacking Erina.
 
 ![background_123](https://user-images.githubusercontent.com/27341392/30235501-6396920a-953b-11e7-9297-dc7da90f8a04.jpg)
 
@@ -537,6 +537,8 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_124](https://user-images.githubusercontent.com/27341392/30235503-639eb55c-953b-11e7-8816-368064c1baaa.jpg)
 
 ## 125
+
+- Halloween DLC background. Camera will zoom in when near town NPCs regardless of being in a boss battle or not.
 
 ![background_125](https://user-images.githubusercontent.com/27341392/30235505-63af7b30-953b-11e7-8248-8f501c2ea257.jpg)
 
