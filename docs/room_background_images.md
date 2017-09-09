@@ -514,7 +514,7 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_119](https://user-images.githubusercontent.com/27341392/30235498-637c52a0-953b-11e7-89ff-6388b9fcc96f.jpg)
 
 ## 120, 121
-- 121: Harsh winds blow in the background, slowly pushing Erina east. A windstorm sound effect plays.
+- Harsh winds blow in the background, slowly pushing Erina east. A windstorm sound effect plays.
 
 ![background_120](https://user-images.githubusercontent.com/27341392/30235500-638927c8-953b-11e7-91af-bc9eb376e4a4.jpg)
 
