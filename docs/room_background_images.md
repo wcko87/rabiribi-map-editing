@@ -274,13 +274,17 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_64](https://user-images.githubusercontent.com/27341392/30235444-61aba8b8-953b-11e7-87c8-aaf5975da9d9.jpg)
 
 ## 65
-- Significantly slows down Erina's fall speed. A glowing white layer covers tiles, more drastically affecting tiles on layers 2 and 6.
+- Two effects based on location. In most sectors of the map, this is the System Interior background.
+![20170908214027_1](https://user-images.githubusercontent.com/19506837/30235999-c7d763dc-94de-11e7-89b4-86d8eab17f57.jpg)
 
+- If placed in rows 7~13 on column 9 in a map, significantly slows down Erina's fall speed. A glowing white layer covers tiles, more drastically affecting tiles on layers 2 and 6.
 ![background_65](https://user-images.githubusercontent.com/27341392/30235446-61b41818-953b-11e7-9080-ce35a39bc91c.jpg)
 
 ## 66
-- Same as 65, except the layer glows red instead of white.
+- Same as 65, except it's System Interior II.
+![20170908214102_1](https://user-images.githubusercontent.com/19506837/30236006-f35da30e-94de-11e7-94fa-72aa69d851b6.jpg)
 
+- If placed in rows 7~13 on column 9 etc. Layer glows red instead of white.
 ![background_66](https://user-images.githubusercontent.com/27341392/30235445-61b1303a-953b-11e7-9003-5815025a15f6.jpg)
 
 ## 67
