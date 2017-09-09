@@ -2,7 +2,7 @@
 
 If it isn't listed here as notes, it hasn't been tested.
 
-Note: Backgrounds were tested live by changing memory. Certain backgrounds may not work this way. Of note, most heavily animated backgrounds are missing, such as Cyberspace and the Library. It's likely that the blank backgrounds are those.
+Note: Backgrounds were tested live by changing memory. Certain backgrounds may not work this way. Many backgrounds with blank images are also simply unused backgrounds.
 
 ## 0
 - Copies background from previous room.
