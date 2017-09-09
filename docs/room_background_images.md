@@ -356,12 +356,12 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 ![background_82](https://user-images.githubusercontent.com/27341392/30235462-6240be9e-953b-11e7-9d1f-cd6a5979dd2a.jpg)
 
 ## 83
-- Apparently the first Library background, but I can't get it to work.
+- Apparently the first Library background, but nothing comes up.
 
 ![background_83](https://user-images.githubusercontent.com/27341392/30235463-62458b22-953b-11e7-8489-887e01760527.jpg)
 
 ## 84
-- The lights turn on and off, hiding and revealing tiles. Library tiles are still somewhat visible when the lights are out. I also can't get the psychaedlic Library background to work here, either.
+- The lights turn on and off, hiding and revealing tiles. Library tiles are still somewhat visible when the lights are out. The animated Library background is activated through event 346 (Enter Library), but activating it without recruiting all town members will warp the player to area 5. If area 5 does not exist, the player will be ejected into the death barrier.
 
 ![background_84](https://user-images.githubusercontent.com/27341392/30235464-6252b09a-953b-11e7-9950-6cfe2f5f8e60.jpg)
 
