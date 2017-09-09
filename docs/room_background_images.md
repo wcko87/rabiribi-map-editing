@@ -538,7 +538,7 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 
 ## 125
 
-- Halloween DLC background. Camera will zoom in when near town NPCs regardless of being in a boss battle or not.
+- Halloween DLC background. Camera will zoom in when near boss entities regardless of being in a boss battle or not.
 
 ![background_125](https://user-images.githubusercontent.com/27341392/30235505-63af7b30-953b-11e7-8248-8f501c2ea257.jpg)
 
