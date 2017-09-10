@@ -36,6 +36,9 @@ These are events that you typically place directly on tiles in order to add dest
 - **[110] Pandora gate**
   - This block is solid until defeating Pandora. If Pandora is defeated on the same screen, this block remains solid until leaving the screen.
 
+- **[455] Keke Bunny gate**
+  - This block disappears and re-appears during certain attacks used by Keke Bunny.
+
 - **[197] Spikes**
   - Touching this event damages Erina. Damage varies based on background and difficulty level.
   - Does not need to be on a solid tile to deal damage.
