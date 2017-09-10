@@ -23,6 +23,9 @@ These are events that you typically place directly on tiles in order to add dest
 
 - **[8] Cracked block**
   - If Erina steps on this block, it makes a snapping sound, then disappears a short amount of time later.
+  
+- **[30] Low Item% block**
+  - These blocks are only visible in Low Item% mode. Upon reaching 10% item collection rate, they disappear.
 
 - **[160] Boss gate**
   - This block becomes solid when boss mode is activated, and disappears afterwards.
