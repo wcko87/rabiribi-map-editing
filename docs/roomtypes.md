@@ -13,3 +13,17 @@ Room Types (in the `roomtype` object layer) affect how the camera scrolls. This 
 -2: Prevents the camera from entering a room from the left or right (it can still enter from above/below)
 -3: Prevents the camera from entering a room from any direction.
 ```
+
+## Example Usage:
+Having the room types laid out like this:
+```
+1 0 0 0 4 4 1 3
+2 2 2 2 4 4 0 3
+```
+
+Makes the rooms like this in the minimap:
+```
+ _       ___ _ _
+|_|_____|   |_| |
+|_______|___| |_|
+```
