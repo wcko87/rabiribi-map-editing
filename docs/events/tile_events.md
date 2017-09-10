@@ -1,6 +1,7 @@
 # Tile modifier events
 
 These are events that you typically place directly on tiles in order to add destructables to the map.
+If a block disappears, any collision attached to it also disappears. Conversely, if a block appears, then any collision attached to it will appear as well.
 
 - **[1] Wood block**
   - Block can be destroyed by hammer attacks.
