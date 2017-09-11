@@ -2,9 +2,9 @@
 
 [Rabi-Ribi Map Editing Main Page](https://wcko87.github.io/rabiribi-map-editing/)
 
-This is the detailed documentation for some of the more technical aspects of map editing (especially events). It's a little messy around here.
+This is the detailed documentation for some of the more technical aspects of map editing (especially events).
 
-Basically we store id tables miscellaneous notes around here. Click around the various files in this directory to look through them.
+Basically we store id tables and miscellaneous notes here, as a reference. Click around the various files in this directory to look through them.
 
 ## Event Basics:
 
