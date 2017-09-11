@@ -44,6 +44,8 @@ Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never b
 
 # Guides
 
+The following guides will help you get started with map editing.
+
 ## [Running Custom Maps](runningcustommaps)
 
 ## [Getting Started with the Editor](editorguide)
