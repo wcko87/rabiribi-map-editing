@@ -542,4 +542,6 @@ Note: Backgrounds were tested live by changing memory. Certain backgrounds may n
 
 ![background_125](https://user-images.githubusercontent.com/27341392/30235505-63af7b30-953b-11e7-8248-8f501c2ea257.jpg)
 
-126+: Crash. Too lazy to continue testing past 130
+## 126+
+
+- Crash. Too lazy to continue testing past 130
