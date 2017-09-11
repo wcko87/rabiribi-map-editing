@@ -22,7 +22,7 @@ The [table of item ids](./items/item_ids.csv) can be found in the detailed docs.
 
 Note: In the beta version 1.8e, picking up the Congratulations! trophy (item id 42) will display the time and end the game.
 
-## Room Background/Type/Color Basics
+## Room Background/Type/Color Basics:
 
 To modify these, make the corresponding layers visible and modify the name labels of the room tiles overlaid over the map.
 
@@ -31,6 +31,7 @@ To modify these, make the corresponding layers visible and modify the name label
   * [room_background_ids_original.txt](./room_background_ids_original.txt)
   * Basically, these text files list the color/background being used in the original maps.
   
+* Images of each of the backgrounds can be found [here](./room_background_images.md)
 * Room type information can be found [here](./roomtypes.md)
 
 Note: you may need to restart the game for changes in room backgrounds/types/colors to take effect properly.
