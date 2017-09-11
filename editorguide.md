@@ -40,15 +40,21 @@ The map data is stored in layers. The layer panel is on the right, and looks lik
 
 **Note: You can re-order the layers in the menu, and hide/unhide layers. But do not rename any of the layers. Renaming the layers will cause the map conversion to fail.**
 
+### Adding Tiles
+
 There are 7 tile layers, `tiles0` to `tiles6`. These layers store tile data you can see in-game. The main layer you should be adding tiles to is `tiles1`. More details on the layers can be found in the detailed docs.
 
 Here we take tiles from the tileset and add them to the `tiles1` layer.
 
 ![editor_adding_tiles](https://user-images.githubusercontent.com/27341392/30276612-f9f1f23c-9737-11e7-9df0-85c9e8b8c24a.png)
 
+### Adding Collision
+
 Tile layers are purely visual. For Erina to collide with the floor, you need to add collision tiles to the `collision` layer. **Note: Do not add collision data to tile layers, or tile data to the collision layer**.
 
 ![editor_adding_collision](https://user-images.githubusercontent.com/27341392/30276606-f5d4d1f6-9737-11e7-8a4a-86fff8f02dca.png)
+
+### Adding Items
 
 Before we add items and events, make sure **View -> Snapping -> Snap to Grid** is turned on, like in the image below:
 
@@ -62,11 +68,15 @@ Alternatively, you can copy-paste an existing item object and simply change the 
 
 ![editor_adding_items](https://user-images.githubusercontent.com/27341392/30276607-f5d61c46-9737-11e7-8f8a-b285747bf04b.png)
 
+### Adding Events
+
 Almost everything else in the game is an event. More details on events will be explained later. To add an event, we switch to the `event` object layer. Create events the same way you create items.
 
 In the following image, we create a "Start Point" event (event id 34), and a column of autosave events. (42 is an autosave event, and 44 is a no-save event, which allows autosave events to be triggered again)
 
 ![editor_adding_events](https://user-images.githubusercontent.com/27341392/30276605-f5ced0da-9737-11e7-8bea-c267c124e782.png)
+
+### Editing Room Data
 
 Finally, you can also edit room types, room colors and room backgrounds. The most important of the three is room types. Room types affect how the camera scrolls in the rooms.
 
