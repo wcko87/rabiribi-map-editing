@@ -50,7 +50,9 @@ Here we take tiles from the tileset and add them to the `tiles1` layer.
 
 ## Adding Collision
 
-Tile layers are purely visual. For Erina to collide with the floor, you need to add collision tiles to the `collision` layer. **Note: Do not add collision data to tile layers, or tile data to the collision layer**.
+Tile layers are purely visual. For Erina to collide with the floor, you need to add collision tiles to the `collision` layer.
+
+**Note: Do not add collision data to tile layers, or tile data to the collision layer**.
 
 ![editor_adding_collision](https://user-images.githubusercontent.com/27341392/30276606-f5d4d1f6-9737-11e7-8a4a-86fff8f02dca.png)
 
