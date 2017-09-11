@@ -46,6 +46,8 @@ There are 7 tile layers, `tiles0` to `tiles6`. These layers store tile data you 
 
 Here we take tiles from the tileset and add them to the `tiles1` layer.
 
+**Note: Press X to flip a tile by the x-axis, Y to flip by the y-axis. Do not rotate tiles. Do not flip collision tiles.**
+
 ![editor_adding_tiles](https://user-images.githubusercontent.com/27341392/30276612-f9f1f23c-9737-11e7-9df0-85c9e8b8c24a.png)
 
 ## Adding Collision
