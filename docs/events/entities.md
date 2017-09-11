@@ -117,7 +117,10 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
 - **[1030] Seana**
 - **[1031] Lilith**
 - **[1032] Vanilla**
+- Type 1 behaves like Chocolate for some attacks.
+
 - **[1033] Chocolate**
+- Type 0 (default) behaves like Vanilla for some attacks. Type 1 behaves like expected from her normal Ravine event.
 
 - **[1035] Illusion Alius 1**
   - Has modifiers. Type 1 is Alius 2, type 2 is Alius 3, and type 3 is Alius 4.
