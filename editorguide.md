@@ -66,7 +66,7 @@ To add items, we switch to the `items` object layer. To create a new item, use t
 
 Alternatively, you can copy-paste an existing item object and simply change the name.
 
-![editor_adding_items](https://user-images.githubusercontent.com/27341392/30276607-f5d61c46-9737-11e7-8f8a-b285747bf04b.png)
+![editor_adding_items_circled](https://user-images.githubusercontent.com/27341392/30283100-bded89d8-9749-11e7-8f0e-2888ee04f7d1.png)
 
 ### Adding Events
 
@@ -96,27 +96,32 @@ When you first open up the map editor, you might notice a lot of numbers.
 
 These numbers belong to Object layers. There are [five object layers](https://user-images.githubusercontent.com/27341392/30008490-cf24761e-9152-11e7-94d2-955ab89621a7.png).
 
-* `events`: Event Triggers. Most of the things that "happen" in game come from event tiles.
+### events
+- Event Triggers. Most of the things that "happen" in game come from event tiles.
 
-  Events include, but is not limited to:
-  * Cutscene Start Triggers
-  * Boss Triggers
-  * Music Triggers
-  * Enemies, and other entities like springs, computers etc.
-  * Easter Eggs
-  * Save points, heal points, warp stones
-  * Bomb blocks, Hammer blocks, ribbon blocks
-  * Map transitions
-  * Environmental lighting effects
-  * etc etc etc...
+Events include, but is not limited to:
+* Cutscene Start Triggers
+* Boss Triggers
+* Music Triggers
+* Enemies, and other entities like springs, computers etc.
+* Easter Eggs
+* Save points, heal points, warp stones
+* Bomb blocks, Hammer blocks, ribbon blocks
+* Map transitions
+* Environmental lighting effects
+* etc etc etc...
 
-* `items`: Item ids. Only items exist in this layer.
+### items
+- Item ids. Only items exist in this layer.
 
-* `roombg`: The background for each room
+### roombg
+- The background for each room.
 
-* `roomcolor`: The color of the minimap tile for the room
+### roomcolor
+- The color of the minimap tile for the room.
 
-* `roomtype`: Determines if the room is a single room, or a vertical/horizontal/large room, for camera scrolling.
+### roomtype
+- Determines if the room is a single room, or a vertical/horizontal/large room, for camera scrolling.
 
 More detailed information on these layers can be found in the [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs).
 
