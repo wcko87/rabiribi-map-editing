@@ -44,11 +44,11 @@ Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never b
 
 # Guides
 
-### [Running Custom Maps](runningcustommaps)
+## [Running Custom Maps](runningcustommaps)
 
-### [Getting Started with the Editor](editorguide)
+## [Getting Started with the Editor](editorguide)
 
-### [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs/)
+## [Detailed Documentation](https://github.com/wcko87/rabiribi-map-editing/tree/master/docs/)
 
 
 
