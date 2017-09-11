@@ -28,7 +28,7 @@ Using the editor in the wrong way can cause either the converter to crash, or th
 10. Press X to flip a tile by the x-axis, Y to flip by the y-axis. Do not rotate tiles. Do not flip collision tiles.
 
 
-## Quick Start Guide
+# Quick Start Guide
 
 When you open a map in Tiled, you should see something like this.
 
@@ -76,8 +76,9 @@ In this case, we want to turn these rooms into a single long room. We do this go
 
 ![editor_roomtype](https://user-images.githubusercontent.com/27341392/30276604-f59e4370-9737-11e7-9274-5cb74c175e21.png)
 
+The following section will explain more about Object Layers (events, items, roombg, roomcolor, roomtype).
 
-## Understanding Events, Item Ids, Minimap tiles (Object Layers)
+# Understanding Object Layers
 
 When you first open up the map editor, you might notice a lot of numbers.
 
