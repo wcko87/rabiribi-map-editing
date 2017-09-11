@@ -56,11 +56,11 @@ The following guides will help you get started with map editing.
 
 # Frequently Asked Questions
 
-##### Q: When I load a map in Tiled, I can't see any tiles at all! All I see are a bunch of numbers.
+#### Q: When I load a map in Tiled, I can't see any tiles at all! All I see are a bunch of numbers.
 
 A: This happens when you don't put the tileset files in the same directory as the .json file. If your .json file is in `s2_editable_maps`, you should place the tileset files in `s2_editable_maps` as well.
 
-##### Q: I get a conversion error when I try to convert my .json map back into a .map file. What happened?
+#### Q: I get a conversion error when I try to convert my .json map back into a .map file. What happened?
 
 A: A conversion error happens when you do something in Tiled that is not valid in Rabi-Ribi. I suggest reading the [Important Notes when working with the Map Editor](#important-notes-when-working-with-the-map-editor) to find out what you should and should not do in Tiled.
 
