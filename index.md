@@ -62,7 +62,7 @@ A: This happens when you don't put the tileset files in the same directory as th
 
 #### Q: I get a conversion error when I try to convert my .json map back into a .map file. What happened?
 
-A: A conversion error happens when you do something in Tiled that is not valid in Rabi-Ribi. I suggest reading the [Important Notes when working with the Map Editor](#important-notes-when-working-with-the-map-editor) to find out what you should and should not do in Tiled.
+A: A conversion error happens when you do something in Tiled that is not valid in Rabi-Ribi. I suggest reading the [Important Notes when working with the Map Editor](editorguide#important-notes) to find out what you should and should not do in Tiled.
 
 
 
