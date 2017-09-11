@@ -1,2 +1,4 @@
 https://wcko87.github.io/rabiribi-map-editing/
+https://wcko87.github.io/rabiribi-map-editing/editorguide
+https://wcko87.github.io/rabiribi-map-editing/runningcustommaps
 https://wcko87.github.io/rabiribi-map-editing/random_images
