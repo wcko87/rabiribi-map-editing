@@ -108,7 +108,7 @@ ENTITIES
 - No idea what this does.
 
 1028: Interactable NPC
-- Appearance and dialogue is determined by Y+1 modifier. If no modifier is set, you will see error messages and a blank text box.
+- Appearance and dialogue is determined by type modifier. If no modifier is set, you will see error messages and a blank text box.
 
 1030: Seana
 1031: Lilith
