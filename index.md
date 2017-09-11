@@ -38,7 +38,7 @@ Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never b
 
 - You can copy these `s3_final_maps` back into Rabi-Ribi to try them out. (maps are placed in the `Rabi-Ribi\data\area` folder in your steam directory)
 
-### NOTE: The Tileset files MUST be placed in the same directory as the `.json` files for the map editor to display correctly!
+### NOTE: The Tileset files MUST be placed in the same directory as the .json files for the map editor to display correctly!
 - I suggest placing the Tileset files in `s2_editable_maps`
 
 
