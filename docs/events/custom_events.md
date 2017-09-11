@@ -1,6 +1,6 @@
 # Custom Events
 
-These are events defined by GemaYue specifically for the map editor. These events only work in the beta version 1.8e.
+These are events defined by GemaYue specifically for the map editor. These events only work in the beta version 1.8e or 1.85 onwards.
 
 - **522 EV_NOPFLAG0**
 
