@@ -151,3 +151,19 @@ These are events defined by GemaYue specifically for the map editor. These event
     - n is the value of the X+2 tile. (i.e. eventID: 5000 + n)
     - (If n is 0, remove the item)
     - This can be used to set the levels of bunny amulet(23),  plus necklace(33), donuts(37), cakes(38), golden carrots(39), and cocoa bombs(40) above their normal values.
+    
+- **559 EV_SETHAMMEREXP**
+    
+    IF Erina passed these events, set hammer exp to k.
+    - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
+
+- **560 EV_SETFAIRYEXP**
+    
+    IF Erina passed these events, set Ribbon relationship exp to k.
+    - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
+
+- **561 EV_SETBOMBEXP**
+    
+    IF Erina passed these events, set carrot bomb exp to k.
+    - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
+
