@@ -135,18 +135,18 @@ These are events defined by GemaYue specifically for the map editor. These event
 
 - **556 EV_SETSPIKEDMG**
 
-    IF Erina passes these events, set all spikes damage to k.
+    IF Erina passes this event, set all spikes damage to k.
     - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
     - If k = 0, disable this effect.
 
 - **557 EV_PLAYMUSIC**
 
-    IF Erina passes these events, play music ID k. (useful for playing music with ID>31)
+    IF Erina passes this event, play music ID k. (useful for playing music with ID>31)
     - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
 
 - **558 EV_CHANGEITEM**
 
-    IF Erina passes these events, set item ID k's Level to n. 
+    IF Erina passes this event, set item ID k's Level to n. 
     - k is the value of the X+1 tile. (i.e. eventID: 5000 + k)
     - n is the value of the X+2 tile. (i.e. eventID: 5000 + n)
     - (If n is 0, remove the item)
@@ -154,16 +154,16 @@ These are events defined by GemaYue specifically for the map editor. These event
     
 - **559 EV_SETHAMMEREXP**
     
-    IF Erina passed these events, set hammer exp to k.
+    IF Erina passes this event, set hammer exp to k.
     - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
 
 - **560 EV_SETFAIRYEXP**
     
-    IF Erina passed these events, set Ribbon relationship exp to k.
+    IF Erina passes this event, set Ribbon relationship exp to k.
     - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
 
 - **561 EV_SETBOMBEXP**
     
-    IF Erina passed these events, set carrot bomb exp to k.
+    IF Erina passes this event, set carrot bomb exp to k.
     - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
 
