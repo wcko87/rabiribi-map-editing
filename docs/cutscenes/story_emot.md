@@ -20,7 +20,7 @@ Create a character format: `[!CXY<Z>]`
 - X determines the conversation ID of the created character. (1-6?)
 - Y determines which character is created. (A-Z)
 - Z determines distance from opposite of facing side. (0-9, `-` changes text box color without a portrait or character name)
-- Wrapping Z in `<>` causes the character to face left, `><` faces right
+- Wrapping Z in `<>` causes the character to appear on the right facing left, `><` causes them to appear on the left facing right
  
 Edit character emotions format: `[!EXYZ]`
 - X determines which part to modify.
