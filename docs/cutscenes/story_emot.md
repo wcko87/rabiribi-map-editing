@@ -90,3 +90,6 @@ Z Ribbon
 set her eyebrows to type 3
 set mouth to type 1
 set blush to max
+
+**Example 3**: `[!C1A>1<][!T1][!EP1:]`
+- Create a right facing Rumi without a portrait
