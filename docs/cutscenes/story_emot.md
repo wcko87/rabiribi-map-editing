@@ -19,8 +19,7 @@ Emotion Control (New Update)
 Create a character format: `[!CXY<Z>]`
 - X determines the conversation ID of the created character. (1-6?)
 - Y determines which character is created. (A-Z)
-- Z determines distance from opposite of facing side. (0-9)
-- `-` causes the text box to change color without showing a portrait or speaker name
+- Z determines distance from opposite of facing side. (0-9, `-` changes text box color without a cutin or character name)
 - Wrapping Z in `<>` causes the character to face left, `><` faces right
  
 Edit character emotions format: `[!EXYZ]`
