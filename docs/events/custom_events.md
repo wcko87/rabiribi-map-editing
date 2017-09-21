@@ -127,11 +127,18 @@ These are events defined by GemaYue specifically for the map editor. These event
 
 - **554 EV_MOVEDOWN**
 
-    if erina passes this event, start a event that increase Erina's yaxis position by 720x4px. (repeatable)
+    if Erina passes this event, start a event that increase Erina's yaxis position by 720x4px. (i.e. move 4 screens down)
+    - this event is repeatable
+    - if the game can't move the player 4 screens down, this event does nothing.
+    - the screen fades out and fades back in like a map transition. Erina has time to fall about 4 screens during the transition cutscene.
 
 - **555 EV_MOVEUP**
 
-    if erina passes this event, start a event that decrease Erina's yaxis position by 720x4px. (repeatable)
+    if Erina passes this event, start a event that decrease Erina's yaxis position by 720x4px. (i.e. move 4 screens up)
+    - this event is repeatable.
+    - if the game can't move the player 4 screens up, this event does nothing.
+    - the screen fades out and fades back in like a map transition. Erina has time to fall about 4 screens during the transition cutscene.
+    - **warning**: If there is nothing for erina to fall on after transitioning 4 screens up, she falls back onto the event before the transition cutscene ends, softlocking the game.
 
 - **556 EV_SETSPIKEDMG**
 
