@@ -1,0 +1,65 @@
+Buff ID, Name
+0,Speed Down
+1,Numb
+2,Poisoned
+3,Attack Down
+4,Defense Down
+5,Cursed
+6,Stunned
+7,Ban Skill
+8,Mana Down
+9,Freeze
+10,Burn
+11,Attack Up
+12,Defense Up
+13,HP Recover
+14,SP Recover
+15,Shrink
+16,Giant
+17,Arrest
+18,Speed Up
+19,Halo Buff
+20,Badge Copy
+21,Null Melee
+22,Defense Boost
+23,Defense Drop
+24,Stamina Down
+25,Null Slow
+26,Super Armour
+27,Quad Damage
+28,Double Damage
+29,Speedy
+30,Max HP Up
+31,Max MP Up
+32,Amulet Cut
+33,HP Regen
+34,MP Regen
+35,Give ATK Down
+36,Give DEF Down
+37,Unstable
+38,Boost Fail
+39,Hex Cancel
+40,Lucky Seven
+41,Quick Reflex
+42,Defense Boost
+43,Endurance
+44,Fattigue
+45,Halo Boost 1
+46,Halo Boost 2
+47,Halo Boost 3
+48,99 Reflect
+49,Survival Instinct
+50,Amulet Drain
+51,Mortality
+52,No Badges
+53,Instant Death
+54,Health Absorb
+55,Power Absorb
+56,300 Revenge
+57,Bunny Lover
+58,Healing
+59,T Minus Two
+60,T Minus One
+61,Attack Boost
+62,Meow Respawn
+63,Zero Offense
