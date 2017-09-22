@@ -40,6 +40,7 @@ These are events defined by GemaYue specifically for the map editor. These event
     If Erina passes this event, it gives her buff ID m for n seconds.
     - m is the value of the X+1 tile (i.e. eventID: 5000 + m)
     - n is the value of the X+2 tile (i.e. eventID: 5000 + n)
+    - A list of buff IDs can be found in [buff_ids.csv](./buff_ids.csv)
 
 
 - **533 EV_NOSPAWN0**
@@ -79,6 +80,17 @@ These are events defined by GemaYue specifically for the map editor. These event
 
     If Erina passes this event, change game difficulty to k.
     - k is the value of the X+1 tile (i.e. eventID: 5000+k)
+    ```
+    0: Casual
+    1: Novice
+    2: Normal
+    3: Hard
+    4: Hell
+    5: Bunny Extinction
+    6: Unknown
+    7: Impossible
+    8+: Extra
+    ```
 
 
 - **544 EV_BOSSMODE**
