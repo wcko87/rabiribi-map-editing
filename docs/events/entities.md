@@ -159,11 +159,16 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
   - Type 5 is a big slime.
   - Type 6 is a large slime.
 
-- **[1097] Flowers**
-- **[1098] "Ball mouse"**
+- **[1097] Flower**
+  - Only spawns after event ID 298 is set (EV_TELEPORT2)
+
+- **[1098] Ball mouse (roly-poly)**
+  - Only spawns after event ID 298 is set (EV_TELEPORT2)
+  
 - **[1099] Bee**
-- **[1102] Bird**
-  - I can't get these to spawn even though I can see their events in normal gameplay.
+
+- **[1102] Duck**
+  - Only spawns after event ID 298 is set (EV_TELEPORT2)
 
 - **[1100] Rafflesia**
   - Type 1 is green and fires larges amounts of green bullets skywards, which fall back down a short time later.
