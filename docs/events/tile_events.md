@@ -59,6 +59,12 @@ If a block disappears, any collision attached to it also disappears. Conversely,
   
     ![paintdotnet_2017-09-10_01-43-46](https://user-images.githubusercontent.com/19506837/30246488-82aa2c2c-95c9-11e7-9d5d-d9fcd978ac52.png)
 
+- **[483] Take fall damage and reset**
+  - Passing through this tile causes Erina to take damage and be warped to where she came from (as seen in the Ravine DLC area).
+
 - **[193] Hide layer 2**
 - **[194] Show layer 2**
   - Allows toggling the visibility of layer 2.
+
+- **[512 .. 515] Hall of Memories DLC area color blocks (red/blue/green/purple)**
+  - Defeating the corresponding miniboss breaks these blocks.
