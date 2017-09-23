@@ -156,11 +156,17 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
 
 - **[1096] Pink bunny slime**
   - Type 2 is a blue fairy with slime AI. When on the ground, it cycles through fairy colors.
-  - Type 5 is a big slime.
-  - Type 6 is a large slime.
+  - Type 5 is a big bunny.
+  - Type 6 is a large bunny.
+  - Type 7 is a huge bunny.
 
 - **[1097] Flower**
   - Only spawns after event ID 298 is set (EV_TELEPORT2)
+  - Type 1 is a blue flower that shoots bubbles.
+  - Type 2 is a red laser flower.
+  - Type 5 is a big flower.
+  - Type 6 is a large flower.
+  - Type 7 is a huge flower.
 
 - **[1098] Ball mouse (roly-poly)**
   - Only spawns after event ID 298 is set (EV_TELEPORT2)
