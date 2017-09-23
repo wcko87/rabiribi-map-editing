@@ -97,6 +97,7 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
 - **[1019] Red laser**
   - Fires left. Deals significantly less damage than event 1008.
   - Direction can be changed with all direction modifiers.
+  - Place an entity with ID in the range of 200 .. 205 below this entity to change the timing of when the laser fires.
 
 - **[1020] Saya**
 - **[1021] Syaro**
@@ -394,6 +395,9 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
 
 - **[1164] Bunny ghost**
   - Higher type modifier makes it deal more damage.
+
+- **[1174] Hall of Memories DLC area purple laser**
+  - Direction can be changed with all direction modifiers.
 
 ### Unimplemented, semi-functional events
 
