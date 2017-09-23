@@ -43,7 +43,7 @@ This can be used to:
 - This should be placed on the ground. The player presses Down while on the event tile to use the warp.
 - The destination Tele ID and Map must be set before using the warp.
 - A common practice is to surround the entrance with the Tele ID and Cross Map events.
-   - This Warp brings you to Map 8, Tele ID 4.
+   - This warp brings you to Map 8, Tele ID 4.
     ```
     +---+---+---+---+---+
     |250|250|250|250|250|
@@ -67,11 +67,11 @@ This can be used to:
 
 ### Tele ID and Cross Map Events
 
-- If you touch a Tele ID X event, the next warp you take will bring you to warp stone ID X.
+- If you touch a Tele ID X event, the next warp you take will bring you to warp exit X.
 
 - If you touch a CROSS MAP Y event, the next warp you take will bring you to map Y.
 
-- If warp stone ID X does not exist in map Y, the warp will put you in the same location, but in map Y (wrong warp).
+- If warp exit X does not exist in map Y, the warp will put you in the same location, but in map Y (wrong warp).
 
 #### Tele ID Events:
 ```
