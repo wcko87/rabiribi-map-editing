@@ -45,24 +45,24 @@ This can be used to:
 - A common practice is to surround the entrance with the Tele ID and Cross Map events.
    - This warp brings you to Map 8, Tele ID 4.
     ```
-    +---+---+---+---+---+
-    |250|250|250|250|250|
-    |---|---|---|---|---|
-    |250|213|213|213|250|
-    |---|---|---|---|---|
-    |250|213|208|213|250|
-    +---+---+---+---+---+
+    +-----+-----+-----+-----+-----+
+    | 250 | 250 | 250 | 250 | 250 | 
+    |-----|-----|-----|-----|-----| 
+    | 250 | 213 | 213 | 213 | 250 | 
+    |-----|-----|-----|-----|-----| 
+    | 250 | 213 | 208 | 213 | 250 | 
+    +-----+-----+-----+-----+-----+
     ```
 
 **Event ID 240: Warp Exit**
 - The Tele ID event must be placed directly above the Warp Exit event.
     - This is a Tele ID 4 warp exit:
     ```
-    +---+
-    |213|
-    |---|
-    |240|
-    +---+
+    +-----+
+    | 213 |
+    |-----|
+    | 240 |
+    +-----+
     ```
 
 ### Tele ID and Cross Map Events
