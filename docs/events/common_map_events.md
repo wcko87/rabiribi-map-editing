@@ -11,6 +11,7 @@
 
 - **[250] Easter egg**
   - Spawns an easter egg item.
+  - If a **[250] easter egg** is placed within a collidable block and next to a **[3] Bomb chain block**, the block with the easter egg also acts as a bomb chain block, and can be blown up with bombs.
 
 
 # Tile modifier events
