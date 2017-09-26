@@ -7,7 +7,9 @@
   - Spawns a glowing heal point.  When Erina stands near this, her HP recovers.
 
 - **[224] Save point**
-  - Spawns a save point.  Typically built in a 2 wide by 3 tall rectangle, rising up above the ground.
+  - Spawns a save point.  Typically built in a 2 wide by 3 tall rectangle with a 5001 on top, like in the image below.
+  
+    ![savepoint](https://user-images.githubusercontent.com/27341392/30837013-7d1ca802-a294-11e7-896e-fd9b12494ad7.png)
 
 - **[250] Easter egg**
   - Spawns an easter egg item.
