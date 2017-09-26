@@ -101,8 +101,10 @@ See [music_triggers.csv](music_triggers.csv) for a list of music triggers.
   - When Erina passes this event, darkness is disabled.
 
 - **[193] Hide layer 2**
+  - Makes layer 2 and 6 invisible.
+
 - **[194] Show layer 2**
-  - Allows toggling the visibility of layer 2.
+  - Makes layer 2 and 6 visible.
 
 
 # Warps
