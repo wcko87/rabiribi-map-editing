@@ -1,3 +1,18 @@
+# Misc. Events
+
+- **[34] Start point**
+  - Spawns Erina here.  In custom maps, the game will look for this event in area0.map
+
+- **[45] Heal point**
+  - Spawns a glowing heal point.  When Erina stands near this, her HP recovers.
+
+- **[224] Save point**
+  - Spawns a save point.  Typically built in a 2 wide by 3 tall rectangle, rising up above the ground.
+
+- **[250] Easter egg**
+  - Spawns an easter egg item.
+
+
 # Tile modifier events
 
 These are events that you typically place directly on tiles in order to add destructables to the map.
@@ -59,12 +74,40 @@ If a block disappears, any collision attached to it also disappears. Conversely,
   
     ![paintdotnet_2017-09-10_01-43-46](https://user-images.githubusercontent.com/19506837/30246488-82aa2c2c-95c9-11e7-9d5d-d9fcd978ac52.png)
 
-- **[483] Take fall damage and reset**
-  - Passing through this tile causes Erina to take damage and be warped to where she came from (as seen in the Ravine DLC area).
+- **[512 .. 515] Hall of Memories DLC area color blocks (red/blue/green/purple)**
+  - Defeating the corresponding miniboss breaks these blocks.
+
+
+
+# Trigger events
+
+Events you typically place in a column or surrounding the entrance to an area, so that Erina has to pass through them to trigger something.
+
+- **[42] Auto save**
+  - When Erina passes this event, the game triggers an autosave.  Autosave is then disabled until Erina passes an autosave reset event.
+
+- **[44] Auto save reset**
+  - When Erina passes this event, auto save events are reenabled.
+
+- **[100] Dark Zone**
+  - When Erina passes this event, darkness is activated. (you can't see without the Light Orb)
+
+- **[101] No Dark Zone**
+  - When Erina passes this event, darkness is disabled.
 
 - **[193] Hide layer 2**
 - **[194] Show layer 2**
   - Allows toggling the visibility of layer 2.
 
-- **[512 .. 515] Hall of Memories DLC area color blocks (red/blue/green/purple)**
-  - Defeating the corresponding miniboss breaks these blocks.
+
+# Warps
+
+Events that move Erina to a different location. More types of warps can be found in [map_transitions_and_warps.md](map_transitions_and_warps.md).
+
+- **[80] Door (warp upwards)**
+- **[81] Door (warp downwards)**
+  - Doors are created simply by placing event 80 or 81 just above the floor.
+  - Doors will warp the player exactly two screens upwards (event 80) or downwards (event 81).
+
+- **[483] Take fall damage and reset**
+  - Passing through this tile causes Erina to take damage and be warped to where she came from (as seen in the Ravine DLC area).

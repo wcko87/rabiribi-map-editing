@@ -110,7 +110,3 @@ Note: If you touch CROSS MAP OFF, the next warp stone will not warp you to a dif
   - Only one warp stone can be placed per room
   
 Note: Direct warps are disabled if the computer room background is used in the room. It is disabled until you trigger the event that activates the computer room.
-
-# Doors
-
-Doors are created simply by placing event 80 or 81 just above the floor.  Doors will warp the player exactly two screens upwards (event 80) or downwards (event 81).
