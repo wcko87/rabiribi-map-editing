@@ -81,15 +81,15 @@ These are events defined by GemaYue specifically for the map editor. These event
     If Erina passes this event, change game difficulty to k.
     - k is the value of the X+1 tile (i.e. eventID: 5000+k)
     ```
-    0: Casual
-    1: Novice
-    2: Normal
-    3: Hard
-    4: Hell
-    5: Bunny Extinction
-    6: Unknown
-    7: Impossible
-    8+: Extra
+    5000: Casual
+    5001: Novice
+    5002: Normal
+    5003: Hard
+    5004: Hell
+    5005: Bunny Extinction
+    5006: Unknown
+    5007: Impossible
+    5008+: Extra
     ```
 
 
