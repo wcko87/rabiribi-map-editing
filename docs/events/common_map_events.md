@@ -46,6 +46,8 @@ If a block disappears, any collision attached to it also disappears. Conversely,
   
 - **[9] Low difficulty block**
   - These blocks only show up on difficulties Normal and below.
+  - If the difficulty is increased above normal (e.g. by event 543) in-game, the blocks vanish instantly.
+  - If the difficulty is decreased to normal and below in-game, the blocks don't reappear until a map transition or autosave reload.
 
 - **[192] Reset breakable blocks**
   - Passing through this resets breakable blocks.
@@ -82,7 +84,8 @@ If a block disappears, any collision attached to it also disappears. Conversely,
 
 - **[512 .. 515] Hall of Memories DLC area color blocks (red/blue/green/purple)**
   - Defeating the corresponding miniboss breaks these blocks.
-
+  - Touching one of these tiles with the flag EV_NOEVENT1 on (event 525) instantly breaks these blocks.
+  - Touching one of these tiles with the flag EV_NOEVENT2 on (event 526) will only cause these blocks to return after a map transition or autosave reload.
 
 
 # Trigger events
