@@ -43,6 +43,9 @@ If a block disappears, any collision attached to it also disappears. Conversely,
 
 - **[8] Cracked block**
   - If Erina steps on this block, it makes a snapping sound, then disappears a short amount of time later.
+  
+- **[9] Low difficulty block**
+  - These blocks only show up on difficulties Normal and below.
 
 - **[192] Reset breakable blocks**
   - Passing through this resets breakable blocks.
