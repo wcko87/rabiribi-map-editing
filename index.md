@@ -9,6 +9,11 @@ Brought to you by the [Rabi-Ribi Speedrunning Community](http://www.speedrun.com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.gg/dDfpNAr"><img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" height="20" />Rabi-Ribi Speedrunning Discord</a>
 
+# Who made this?
+
+This is not the work of one person. It is a collaborative effort of the Rabi-Ribi speedrunning community.
+- [How the Map Editor came about](https://wcko87.github.io/acknowledgements/)
+
 # How to edit Rabi-Ribi maps
 
 ## Downloads
