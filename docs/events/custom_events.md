@@ -41,6 +41,7 @@ These are events defined by GemaYue specifically for the map editor. These event
     - m is the value of the X+1 tile (i.e. eventID: 5000 + m)
     - n is the value of the X+2 tile (i.e. eventID: 5000 + n)
     - A list of buff IDs can be found in [buff_ids.csv](./buff_ids.csv)
+    - n can be set to 0 to make this event remove the buff.
 
 
 - **533 EV_NOSPAWN0**
