@@ -1,5 +1,7 @@
 # How to play Custom Rabi-Ribi Maps
 
+([Alternative guide by NuclearCheese for running Custom Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=1170578077))
+
 There are two methods.
 ### Method 1: Version 1.8e / 1.85
 The 1.8e beta version includes special features specifically to support Rabi-Ribi custom maps. This also works from 1.85 onwards.
