@@ -34,7 +34,9 @@ In the rabiribi map converter directory, there are three folders:
 2. `s2_editable_maps`
 3. `s3_final_maps`
 
-Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never be modified by the converter.
+How it works:
+
+- Copy the original Rabi-Ribi maps from `Rabi-Ribi/data/area` to `s1_original_maps`. These maps will never be modified by the converter.
 
 - Double-clicking `original_to_editable.bat` will take all the maps in `s1_original_maps`, convert them to `.json` file format maps, and place them in `s2_editable_maps`.
 
@@ -43,6 +45,18 @@ Place the original Rabi-Ribi maps in `s1_original_maps`. These maps will never b
 - Double-clicking `editable_to_final.bat` will take all the maps in `s2_editable_maps`, convert them back to Rabi-Ribi maps, and place them in `s3_final_maps`.
 
 - You can copy these `s3_final_maps` back into Rabi-Ribi to try them out. (maps are placed in the `Rabi-Ribi\data\area` folder in your steam directory)
+
+<script>
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://assets.gfycat.com/gfycat.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'gfycat-js'));
+</script>
+
+<img href="https://giant.gfycat.com/MadeupNippyHamster.webm" class='gfyitem' data-id='MadeupNippyHamster' />
 
 ### NOTE: The Tileset files MUST be placed in the same directory as the .json files for the map editor to display correctly!
 - I suggest placing the Tileset files in `s2_editable_maps`
