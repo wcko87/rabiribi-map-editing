@@ -46,17 +46,7 @@ How it works:
 
 - You can copy these `s3_final_maps` back into Rabi-Ribi to try them out. (maps are placed in the `Rabi-Ribi\data\area` folder in your steam directory)
 
-<script>
-  (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
-    js.src = "https://assets.gfycat.com/gfycat.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'gfycat-js'));
-</script>
-
-<img href="https://giant.gfycat.com/MadeupNippyHamster.webm" class='gfyitem' data-id='MadeupNippyHamster' />
+<img class='gfyitem' data-id='MadeupNippyHamster'/>
 
 ### NOTE: The Tileset files MUST be placed in the same directory as the .json files for the map editor to display correctly!
 - I suggest placing the Tileset files in `s2_editable_maps`
