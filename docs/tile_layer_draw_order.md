@@ -19,3 +19,5 @@ Layer 2
 ```
 
 Both layers 2 and 6 are hidden by the "hide layer 2" event.
+
+![draw_layers](https://user-images.githubusercontent.com/27341392/33240322-41c51254-d2ef-11e7-9b80-999c2440468a.png)
