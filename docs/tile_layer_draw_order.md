@@ -2,6 +2,8 @@
 
 Layer 1 is the "main" layer. Most of the map geometry should be placed in layer 1.
 
+Destructable blocks (bomb blocks, hammer blocks, ribbon blocks etc) should be on layer 1.
+
 The tile layers (layer 0 to 6) are drawn in this order:
 
 (with layer 0 being the furthest in the back and layer 2 at the front)
