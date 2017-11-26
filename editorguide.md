@@ -40,6 +40,8 @@ The map data is stored in layers. The layer panel is on the right, and looks lik
 
 **Note: You can re-order the layers in the menu, and hide/unhide layers. But do not rename any of the layers. Renaming the layers will cause the map conversion to fail.**
 
+More information on layers: [Tile Layer Draw Order](https://github.com/wcko87/rabiribi-map-editing/blob/master/docs/tile_layer_draw_order.md)
+
 ## Adding Tiles
 
 There are 7 tile layers, `tiles0` to `tiles6`. These layers store tile data you can see in-game. The main layer you should be adding tiles to is `tiles1`. More details on the layers can be found in the detailed docs.
