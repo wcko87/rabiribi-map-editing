@@ -84,8 +84,10 @@ If a block disappears, any collision attached to it also disappears. Conversely,
 
 - **[512 .. 515] Hall of Memories DLC area color blocks (red/blue/green/purple)**
   - Defeating the corresponding miniboss breaks these blocks.
-  - Touching one of these tiles with the flag EV_NOEVENT1 on (event 525) instantly breaks these blocks.
-  - Touching one of these tiles with the flag EV_NOEVENT2 on (event 526) will only cause these blocks to return after a map transition or autosave reload.
+  - How to use it as a switch/door: Let's take event ID 512 for example. (same applies for 513, 514, 515)
+    - Touching an event ID 512 tile while the flag EV_NOEVENT1 is on (event 525) instantly breaks all blocks with event ID 512 on it.
+    - Touching an event ID 512 tile while the flag EV_NOEVENT2 is on (event 526) will only cause event ID 512 blocks to return after a map transition or autosave reload.
+    - In a sense, event ID 512 is used for both the "switch" and the "door"
 
 
 # Trigger events
