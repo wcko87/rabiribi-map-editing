@@ -89,6 +89,26 @@ If a block disappears, any collision attached to it also disappears. Conversely,
     - Touching an event ID 512 tile while the flag EV_NOEVENT2 is on (event 526) will only cause event ID 512 blocks to return after a map transition or autosave reload.
     - In a sense, event ID 512 is used for both the "switch" and the "door"
 
+  - *Note: This does not only work for 512 .. 515. The following event IDs can also be used as blocks:*
+  ```
+  512 - EV_MEMORYRED
+  513 - EV_MEMORYBLUE
+  514 - EV_MEMORYGREEN
+  515 - EV_MEMORYPURPLE
+
+  451 - EV_PLURKMIDBOSS
+  453 - EV_PLURKTAKO2
+  455 - EV_PLURKBLOCK
+  441 - EV_AFTERRED3
+
+  464 - EV_SAYAEX
+  496 - EV_HW
+  487 - EV_HILLENTER
+
+  works in reverse:
+  434 - EV_VOIDBLOCK
+  446 - EV_LIBBLOCK
+  ```
 
 # Trigger events
 
