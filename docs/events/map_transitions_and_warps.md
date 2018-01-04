@@ -1,6 +1,45 @@
 # Map Transitions
 
-(Will document this at some point in the future)
+Map transitions are composed of three events:
+* an event ID to set the target map (161 .. )
+* an event ID to trigger the transition (200 .. )
+* an event ID in the target map to mark the destination (228 .. )
+
+When the player hits a transition trigger (event 200+), it warps the player to the map specified by the last "set target map" event (event 161+), and tries to find the corresponding destination marker (event 228+).  Note that the player continues walking as they go through the transition, so they won't end up exactly where the destination marker is.
+**If the target event is not found, the player will end up at a similar location as where they warped from, but on the target map.**
+
+### Target Map Events ###
+
+These events set the target map to transition to when the player next hits a map transition event.
+
+| Event ID | Target Map File |
+| --- | --- |
+| 161 | area0 |
+| 162 | area1 |
+| 163 | area2 |
+| 164 | area3 |
+| 165 | area4 |
+| 166 | area5 |
+| 168 | area7 |
+
+Note: the actual game does not have any map transitions going to area6, area8 or area9.  Testing is needed as to whether transitions to these maps exist
+
+### Map Transition Triggers and Targets ###
+
+The trigger event IDs trigger the transition; the player will end up at the corresponding target event.
+
+| Trigger Event ID | Target Event ID |
+| --- | --- |
+| 200 | 227 |
+| 201 | 228 |
+| 202 | 229 |
+| 203 | 230 |
+| 204 | 231 |
+| 205 | 232 |
+| 206 | 176 |
+| 207 | 177 |
+
+Note: 206 and 176 don't appear to be used in the official maps, but appear to be functional regardless.
 
 # Warp Stones
 
