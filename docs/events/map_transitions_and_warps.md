@@ -1,16 +1,16 @@
 # Map Transitions
 
 Map transitions are composed of three events:
-* an event ID to set the target map (161 .. )
-* an event ID to trigger the transition (200 .. )
-* an event ID in the target map to mark the destination (228 .. )
+* an event ID to set the target map
+* an event ID to trigger the transition
+* an event ID in the target map to mark the destination
 
-When the player hits a transition trigger (event 200+), it warps the player to the map specified by the last "set target map" event (event 161+), and tries to find the corresponding destination marker (event 228+).  Note that the player continues walking as they go through the transition, so they won't end up exactly where the destination marker is.
-**If the target event is not found, the player will end up at a similar location as where they warped from, but on the target map.**
+When the player hits a transition trigger, it warps the player to the map specified by the last "set target map" event, and tries to find the corresponding destination marker.  Note that the player continues walking as they go through the transition, so they won't end up exactly where the destination marker is.
+**If the destination event is not found in the target map, the player will end up at a similar location as where they warped from, but on the target map.**
 
 ### Target Map Events ###
 
-These events set the target map to transition to when the player next hits a map transition event.
+These events set the target map to transition to when the player next hits a map transition event.  Make sure the player passes through one of these before hitting a map transition event, to be sure they get directed to the correct map.
 
 | Event ID | Target Map File |
 | --- | --- |
@@ -20,9 +20,12 @@ These events set the target map to transition to when the player next hits a map
 | 164 | area3 |
 | 165 | area4 |
 | 166 | area5 |
+| 167 | area6 |
 | 168 | area7 |
+| 169 | area8 |
+| 170 | area9 |
 
-Note: the actual game does not have any map transitions going to area6, area8 or area9.  Testing is needed as to whether transitions to these maps exist
+Note: the actual game does not have any map transitions going to area6, area8 or area9, but the event triggers to transition to them still work.
 
 ### Map Transition Triggers and Targets ###
 
@@ -40,6 +43,11 @@ The trigger event IDs trigger the transition; the player will end up at the corr
 | 207 | 177 |
 
 Note: 206 and 176 don't appear to be used in the official maps, but appear to be functional regardless.
+
+### Other Notes ###
+
+* Map transition events do not need to be in a room marked with the "Area Transition" room type, but doing this puts the appropriate arrow icon on the map to help the player know where transitions are.
+* It seems that the music playing when coming out of a transition is based on the room color.  However, the music won't play properly if the music selected is the same as the one previously playing.
 
 # Warp Stones
 
