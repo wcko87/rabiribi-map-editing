@@ -1,16 +1,17 @@
 # Map Transitions
 
-Map transitions are composed of three events:
-* an event ID to set the target map
-* an event ID to trigger the transition
-* an event ID in the target map to mark the destination
+Map transitions are composed of three types of events:
+1. An event to set the target map
+2. An event to trigger the transition
+3. An event in the target map to mark the destination
 
 When the player hits a transition trigger, it warps the player to the map specified by the last "set target map" event, and tries to find the corresponding destination marker.  Note that the player continues walking as they go through the transition, so they won't end up exactly where the destination marker is.
-**If the destination event is not found in the target map, the player will end up at a similar location as where they warped from, but on the target map.**
+- If the destination event is not found in the target map, the player will still warp into the target map, but at the same position within the map as where they warped from.
 
 ### Target Map Events ###
 
 These events set the target map to transition to when the player next hits a map transition event.  Make sure the player passes through one of these before hitting a map transition event, to be sure they get directed to the correct map.
+- Note: It also works if the "set target map" event is hit after hitting the map transition trigger. (i.e. while Erina is walking, before the screen fades out)
 
 | Event ID | Target Map File |
 | --- | --- |
@@ -42,12 +43,12 @@ The trigger event IDs trigger the transition; the player will end up at the corr
 | 206 | 176 |
 | 207 | 177 |
 
-Note: 206 and 176 don't appear to be used in the official maps, but appear to be functional regardless.
+Note: 206 and 176 don't appear to be used in the official maps, but are functional regardless.
 
 ### Other Notes ###
 
 * Map transition events do not need to be in a room marked with the "Area Transition" room type, but doing this puts the appropriate arrow icon on the map to help the player know where transitions are.
-* It seems that the music playing when coming out of a transition is based on the room color.  However, the music won't play properly if the music selected is the same as the one previously playing.
+* The music that plays when coming out of a transition is based on the room color of the room you transition into. However, the music won't play properly if the music selected is the same as the one previously playing.
 
 # Warp Stones
 
