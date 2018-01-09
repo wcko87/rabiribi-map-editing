@@ -49,6 +49,9 @@ Note: 206 and 176 don't appear to be used in the official maps, but are function
 
 * Map transition events do not need to be in a room marked with the "Area Transition" room type, but doing this puts the appropriate arrow icon on the map to help the player know where transitions are.
 * The music that plays when coming out of a transition is based on the room color of the room you transition into. However, the music won't play properly if the music selected is the same as the one previously playing.
+    * If you transition into a room with room color ID X, music ID X will start playing.
+
+------------------------------
 
 # Warp Stones
 
