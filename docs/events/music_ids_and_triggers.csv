@@ -31,7 +31,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 29, PLURKWOOD, 157, 
 30, ANOTHER D, 158, Hall of Memories
 31, ICY SUMMIT, 159, 
-32, PLAN B,, music IDs above 31 do not have music triggers. They can be played using custom event 557 [custom_events.md](custom_events.md)
+32, PLAN B,, music IDs >31 do not have music triggers. See event 557 in custom_events.md
 33, MIDBOSS BATTLE,,
 34, MELTING POINT,,
 35, MIRIAM'S SHOP,,
