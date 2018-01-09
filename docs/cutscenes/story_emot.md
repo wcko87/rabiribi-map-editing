@@ -41,6 +41,8 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 - Y: which character to modify based on their conversation ID.
 - Z: emotion value.  Refer to portrait viewer in artbook.
 
+**Note:** Emotion values usually go from 0-9. But emotion values 10 and above can also be used by following the ASCII table. `:` is 10, `;` is 11, `<` is 12 etc.
+
 | ID | Emotion Part |
 |----|--------------|
 | B | Eyebrow |
@@ -65,7 +67,7 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 - For example: `[~C900]` is red, `[~C099]` is cyan.
 - Only works if no talking character `]` is set. The talking character normally overrides the text box color with its own.
 
----------------------------
+----------------------------
 
 # Some Examples
 
