@@ -18,7 +18,7 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 
 ## Format Explanation
 
-### Create a Character
+### `!C` Create a Character
 `[!CXY<Z>]`, where X, Y and Z are replaced by:
 - X: conversation ID of the created character. (1-6?)
 - Y: which character is created. (A-Z, from character list below)
@@ -35,7 +35,11 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 | F  | Pandora   | M  | Lilith    | T  | Miru      | ]  |No Character|
 | G  | Irisu     | N  | Vanilla   | U  | Noah      |    |           |
 
-### Set character emotion
+### `!T` Select speaking character
+`[!TX]`, where X is replaced by:
+- X: talking character by their conversation ID.
+
+### `!E`: Set character emotion
 `[!EXYZ]`, where X, Y and Z are replaced by:
 - X: which emotion part to modify. (from list of emotion parts below)
 - Y: which character to modify based on their conversation ID.
@@ -53,19 +57,70 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 | I | Item (0 or 1) |
 | T | Tears (0 or 1) |
 
-### Select speaking character
-`[!TX]`, where X is replaced by:
-- X: talking character by their conversation ID.
-
-### Have a character speak without a portrait
+#### How to have a character speak without a portrait:
 `[!EPX:]`, where X is replaced by:
 - X: talking character by their conversation ID.
 
-### Set Text Box Color
+--------------------
+Additional Formats:
+
+### `~C` Set Text Box Color
 `[~CRGB]`, where R, G, B are replaced by:
 - R,G,B: Red (0-9), Green (0-9) and Blue (0-9) respectively.
 - For example: `[~C900]` is red, `[~C099]` is cyan.
 - Only works if no talking character `]` is set. The talking character normally overrides the text box color with its own.
+
+### `~E` Fade to Black
+`[~E0]`:
+- Causes the screen to fade to black permanently. Cannot be reversed.
+- Screen remains black after the cutscene.
+- All `[~EX]`, where `X` is a number, do the same thing.
+
+### `~F` Replace speaking character's name:
+`[~FX]`: where X is replaced by:
+
+| X = ?     | Name              |
+| :-------- | :---------------- |
+| <= 0      | \<Character name\>  |
+| 1         | Pixie  |
+| 2         | Lilli  |
+| 3         | ???  |
+| 4         | Mr. Tako  |
+| 5         | WAERO  |
+| 6         | Jimbow  |
+| 7         | GemaYue  |
+| 8         | Saiste  |
+| 9         | AT2.  |
+| : (10)    | Sirluma  |
+| ; (11)    | Laluk  |
+| < (12)    | Skullo  |
+| = (13)    | Yarin  |
+| > (14)    | Luei  |
+| ? (15)    | Cross  |
+| @ (16)    | DUMP  |
+| A (17)    | M4  |
+| B (18)    | IAN  |
+| >= C (19) | <Blank>  |
+
+### `~G` (seems to control CGs)
+`[~GX]`, where X is replaced by a number.
+
+### `~M` Play music during cutscene
+`[~MX]`, where X is replaced by:
+
+| X = ?  | Music   |
+| :----- | :------ |
+| 0  | \<No change\> |
+| 1  | Melting Point / Midstream Jam |
+| 2  | Get On With It |
+| 3  | Sudden Death |
+| 4  | Hi-Tech Duel |
+| 5  | Kitty Attack |
+| 6  | Full On Combat |
+| 7  | Bounce Bounce |
+| 8  | Brawl Breaks |
+| 9+ | Brawl Breaks Ver.2 |
+
 
 ----------------------------
 
