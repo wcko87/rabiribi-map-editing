@@ -34,3 +34,11 @@ To modify these, make the roombg/roomtype/roomcolor layers visible and change th
   * [room_background_ids_original.txt](./room_background_ids_original.txt)
 
 Note: you may need to restart the game for changes in room backgrounds/types/colors to take effect properly.
+
+## Cutscene Basics:
+
+To modify cutscenes, create two new text files, story_emot.rbrb and story_text.rbrb, and put them in the same folder as your map files.
+
+story_emot.rbrb is for character portraits and emotions, story_text.rbrb is for cutscene text/dialogue.
+* [story_emot.rbrb Information](./cutscenes/story_emot.md)
+* [story_text.rbrb Information](./cutscenes/story_text.md)
