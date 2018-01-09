@@ -24,14 +24,13 @@ Note: In custom maps, picking up the Congratulations! trophy (item id 42) will d
 
 ## Room Background/Type/Color Basics:
 
-To modify these, make the corresponding layers visible and modify the name labels of the room tiles overlaid over the map.
+To modify these, make the roombg/roomtype/roomcolor layers visible and change the name labels of the room tiles.
 
-* Room colors and background ids can be found from these text files:
+* [Background Images](./room_background_images.md)
+* [Room Color List](./room_colors.md)
+* [Room Types](./roomtypes.md)
+* The room colors / background ids used in the original game can be found from these text files:
   * [room_colors_original.txt](./room_colors_original.txt)
   * [room_background_ids_original.txt](./room_background_ids_original.txt)
-  * Basically, these text files list the color/background being used in the original maps.
-  
-* Images of each of the backgrounds can be found [here](./room_background_images.md)
-* Room type information can be found [here](./roomtypes.md)
 
 Note: you may need to restart the game for changes in room backgrounds/types/colors to take effect properly.
