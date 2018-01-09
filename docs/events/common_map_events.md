@@ -114,8 +114,8 @@ If a block disappears, any collision attached to it also disappears. Conversely,
 
 Events you typically place in a column or surrounding the entrance to an area, so that Erina has to pass through them to trigger something.
 
-See [music_ids_and_triggers.csv](music_ids_and_triggers.csv) for a list of music triggers.
-- Walking past a music trigger event changes the currently playing music.
+- See [music_ids_and_triggers.csv](music_ids_and_triggers.csv) for a list of music triggers.
+  - Walking past a music trigger event changes the currently playing music.
 
 - **[42] Auto save**
   - When Erina passes this event, the game triggers an autosave.  Autosave is then disabled until Erina passes an autosave reset event.
