@@ -79,28 +79,15 @@ Additional Formats:
 ### `~F` Replace speaking character's name:
 `[~FX]`: where X is replaced by:
 
-| X = ?     | Name              |
-| :-------- | :---------------- |
-| <= 0      | \<Character name\>  |
-| 1         | Pixie  |
-| 2         | Lilli  |
-| 3         | ???  |
-| 4         | Mr. Tako  |
-| 5         | WAERO  |
-| 6         | Jimbow  |
-| 7         | GemaYue  |
-| 8         | Saiste  |
-| 9         | AT2.  |
-| : (10)    | Sirluma  |
-| ; (11)    | Laluk  |
-| < (12)    | Skullo  |
-| = (13)    | Yarin  |
-| > (14)    | Luei  |
-| ? (15)    | Cross  |
-| @ (16)    | DUMP  |
-| A (17)    | M4  |
-| B (18)    | IAN  |
-| >= C (19) | <Blank>  |
+| X = ?     | Name               | X = ?     | Name    | X = ?     | Name      |
+| :-------- | :----------------- | :-------- | :------ | :-------- | :-------- |
+| <= 0      | \<Character name\> | 7         | GemaYue | > (14)    | Luei      |
+| 1         | Pixie              | 8         | Saiste  | ? (15)    | Cross     |
+| 2         | Lilli              | 9         | AT2.    | @ (16)    | DUMP      |
+| 3         | ???                | : (10)    | Sirluma | A (17)    | M4        |
+| 4         | Mr. Tako           | ; (11)    | Laluk   | B (18)    | IAN       |
+| 5         | WAERO              | < (12)    | Skullo  | >= C (19) | \<Blank\> |
+| 6         | Jimbow             | = (13)    | Yarin   |           |           |
 
 ### `~G` (seems to control CGs)
 `[~GX]`, where X is replaced by a number.
@@ -108,19 +95,13 @@ Additional Formats:
 ### `~M` Play music during cutscene
 `[~MX]`, where X is replaced by:
 
-| X = ?  | Music   |
-| :----- | :------ |
-| 0  | \<No change\> |
-| 1  | Melting Point / Midstream Jam |
-| 2  | Get On With It |
-| 3  | Sudden Death |
-| 4  | Hi-Tech Duel |
-| 5  | Kitty Attack |
-| 6  | Full On Combat |
-| 7  | Bounce Bounce |
-| 8  | Brawl Breaks |
-| 9+ | Brawl Breaks Ver.2 |
-
+| X = ?  | Music                     | X = ?  | Music              |
+| :----- | :------------------------ | :----- | :----------------- |
+| 0  | \<No change\>                 | 5      | Kitty Attack       |
+| 1  | Melting Point / Midstream Jam | 6      | Full On Combat     |
+| 2  | Get On With It                | 7      | Bounce Bounce      |
+| 3  | Sudden Death                  | 8      | Brawl Breaks       |
+| 4  | Hi-Tech Duel                  | 9+     | Brawl Breaks Ver.2 |
 
 ----------------------------
 
