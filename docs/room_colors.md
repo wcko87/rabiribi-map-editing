@@ -17,7 +17,7 @@ The room color is the color of the rooms you see in the minimap.
 | 1  | ![](http://via.placeholder.com/20/6eb567?text=+) | Starting Forest |
 | 2  | ![](http://via.placeholder.com/20/6167a2?text=+) | Spectral Cave |
 | 3  | ![](http://via.placeholder.com/20/876e4b?text=+) | Forgotten Cave |
-| 4  | ![](http://via.placeholder.com/20/80a973?text=+) | Natural Aquarium (beach entrance, same roomcolor as Natural Aquarium) |
+| 4  | ![](http://via.placeholder.com/20/80a973?text=+) | Natural Aquarium (beach entrance, same color as Natural Aquarium) |
 | 5  | Rainbow | Lilli & Pixie Boss Arena (DLC) |
 | 6  | ![](http://via.placeholder.com/20/926c6d?text=+) | Forgotten Cave II |
 | 7  | ![](http://via.placeholder.com/20/007f54?text=+) | Starting Forest Night |
