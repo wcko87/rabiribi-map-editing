@@ -82,6 +82,8 @@ Each warp stone in Rabi-Ribi has a different ID.
     - If it finds the Spectral Cave warp stone in area0, it puts you at the location of the warp stone.
     - If it can't find the Spectral Cave warp stone in area0, it warps you to area0 anyway, but in the same tile as you were in before. We refer to this as a wrong warp.
 
+------------------------------
+
 # Direct Warps
 
 Note: This refers to warps that directly bring you to another location, like the warp stone to plurkwood and the computer warp to system interior.
