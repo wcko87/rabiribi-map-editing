@@ -1,6 +1,6 @@
 Music ID, Music Name, Music Trigger Event ID, Remarks
 0, -NO MUSIC-, 128, disables currently playing music
-1, ADVENTURE STARTS HERE, 129, 
+1, ADVENTURE STARTS HERE, 129, Starting Forest
 2, SPECTRAL CAVE, 130, 
 3, FORGOTTEN CAVE, 131, 
 4, UNDERWATER AMBIENT, 132, Entrance to Natural Aquarium
@@ -11,7 +11,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 9, RABI RABI BEACH, 137, 
 10, PANDORA'S PALACE, 138, Golden Pyramid
 11, RABI RABI RAVINE, 139, 
-12, HOME SWEET HOME, 140, 
+12, HOME SWEET HOME, 140, Rabi Rabi Town
 13, RABI RABI PARK, 141, 
 14, INSIDE UPRPRC, 142, 
 15, SKY ISLAND TOWN, 143, 
@@ -62,5 +62,5 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 60, PLAY ROUGH?,,
 61, FINALE,,
 62, COUNTDOWN!,,
-63, <unnamed track>,,
+63, <unnamed track>,, Plays during the HoM2 minibosses
 64, LAST 100SEC,,
