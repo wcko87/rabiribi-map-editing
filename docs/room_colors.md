@@ -46,9 +46,9 @@ The room color is the color of the rooms you see in the minimap.
 | 30 | ![](http://via.placeholder.com/20/4063a4?text=+) | Hall of Memories |
 | 31 | ![](http://via.placeholder.com/20/2d6892?text=+) | Icy Summit |
 | 32 | ![](http://via.placeholder.com/20/dc8f40?text=+) | Hall of Memories 2 (DLC) |
-| 34 | ![](http://via.placeholder.com/20/793735?text=+) | Halloween Area |
+| 34 | ![](http://via.placeholder.com/20/793735?text=+) | Halloween Area  (DLC) |
 | 50 | ![](http://via.placeholder.com/20/616188?text=+) | Hospital |
-| 55 | ![](http://via.placeholder.com/20/2ab878?text=+) | Rabi Rabi Ravine 2 |
+| 55 | ![](http://via.placeholder.com/20/2ab878?text=+) | Rabi Rabi Ravine 2 (DLC) |
 | 81 | ![](http://via.placeholder.com/20/343434?text=+) | Noah3 Boss Arena |
 | 83 | ![](http://via.placeholder.com/20/343434?text=+) | Noah1 Boss Arena |
 | 87 | ![](http://via.placeholder.com/20/cb7d7a?text=+) | Rumi Boss Arena |
