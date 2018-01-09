@@ -14,82 +14,94 @@ Emotion Control (New Update)
 [!T3][!EB36][!EM35][!EE33]
 ```
 
-# Format Explanation
+One line of emots should be created per line of dialogue in story_text.rbrb
 
-Create a character format: `[!CXY<Z>]`
-- X determines the conversation ID of the created character. (1-6?)
-- Y determines which character is created. (A-Z)
+## Format Explanation
+
+### Create a Character
+`[!CXY<Z>]`, where X, Y and Z are replaced by:
+- X: conversation ID of the created character. (1-6?)
+- Y: which character is created. (A-Z, from character list below)
 - Z determines distance from opposite of facing side. (0-9, `-` changes text box color without a portrait or character name)
 - Wrapping Z in `<>` causes the character to appear on the right facing left, `><` causes them to appear on the left facing right
- 
-Edit character emotions format: `[!EXYZ]`
-- X determines which part to modify.
-- Y determines which character to modify based on their conversation ID.
-- Z determines emotion value.  Refer to portrait viewer in artbook.
- 
-Select speaking character: `[!TX]`
-- X determines talking character by their conversation ID.
 
-Have a character speak without a portrait: `[!EPX:]`
-- X determines talking character by their conversation ID.
+| ID | Character | ID | Character | ID | Character | ID | Character |
+|----|-----------|----|-----------|----|-----------|----|-----------|
+| A  | Rumi      | H  | Saya      | O  | Chocolate | V  | Pixie     |
+| B  | Rita      | I  | Cicini    | P  | Kotri     | W  | Lilli     |
+| C  | Nieve     | J  | Syaro     | Q  | Keke Bunny| X  |OBJ_DRAGON3|
+| D  | Nixie     | K  | Cocoa     | R  | Seana     | Y  | Erina     |
+| E  | Aruraune  | L  | Ashuri    | S  | Miriam    | Z  | Ribbon    |
+| F  | Pandora   | M  | Lilith    | T  | Miru      | ]  |No Character|
+| G  | Irisu     | N  | Vanilla   | U  | Noah      |    |           |
 
-Emotion parts:
-```
-B Eyebrow
-M Mouth
-E Eye
-R Blush (0-4)
-P Alternate form (Kotri green = 1, kotri blue = 2)
-I Item (0 or 1)
-```
- 
-Created character:
-```
-A Rumi
-B Rita
-C Nieve
-D Nixie
-E Aruraune
-F Pandora
-G Irisu
-H Saya
-I Cicini
-J Syaro
-K Cocoa
-L Ashuri
-M Lilith
-N Vanilla
-O Chocolate
-P Kotri
-Q Keke Bunny
-R Seana
-S Miriam
-T Miru
-U Noah
-V Pixie
-W Lilli
-X OBJ_DRAGON3
-Y Erina
-Z Ribbon
-```
- 
-# Examples
+### Set character emotion
+`[!EXYZ]`, where X, Y and Z are replaced by:
+- X: which emotion part to modify. (from list of emotion parts below)
+- Y: which character to modify based on their conversation ID.
+- Z: emotion value.  Refer to portrait viewer in artbook.
 
-**Example 1**: `[!C1Y<4>][!T1][!EE13][!EB12][!EM14]`
-- Create a left facing Erina
-- set her as the speaker of the current line
-- set her eyes to type 3
-- set eyebrows to type 2
-- set mouth to type 4
- 
-**Example 2**: `[!C2K>5<][!T2][!EI21][!EE22][!EB23][!EM21][!ER24]`
-- Create a right facing Cocoa
-- set her as the speaker of the current line
-- set her accessory to on (goggles for cocoa)
-- set her eyes to type 2
-set her eyebrows to type 3
-set mouth to type 1
-set blush to max
+| ID | Emotion Part |
+|----|--------------|
+| B | Eyebrow |
+| M | Mouth |
+| E | Eye |
+| R | Blush (0-4) |
+| P | Alternate form (Kotri green = 1, kotri blue = 2) |
+| I | Item (0 or 1) |
+| T | Tears (0 or 1) |
 
-**Example 3**: `[!C1A>1<][!T1][!EP1:]`
+### Select speaking character
+`[!TX]`, where X is replaced by:
+- X: talking character by their conversation ID.
+
+### Have a character speak without a portrait
+`[!EPX:]`, where X is replaced by:
+- X: talking character by their conversation ID.
+
+### Set Text Box Color
+`[~CRGB]`, where R, G, B are replaced by:
+- R,G,B: Red (0-9), Green (0-9) and Blue (0-9) respectively.
+- For example: `[~C900]` is red, `[~C099]` is cyan.
+- Only works if no talking character `]` is set. The talking character normally overrides the text box color with its own.
+
+---------------------------
+
+# Some Examples
+
+### Example 1
+```
+[!C1Y<4>][!T1][!EE13][!EB12][!EM14]
+```
+- `[!C1Y<4>]`: Create a left facing Erina
+- `[!T1]`: set her as the speaker of the current line
+- `[!EE13]`: set eyes to type 3
+- `[!EB12]`: set eyebrows to type 2
+- `[!EM14]`: set mouth to type 4
+ 
+### Example 2
+```
+[!C2K>5<][!T2][!EI21][!EE22][!EB23][!EM21][!ER24]
+```
+- `[!C2K>5<]`: Create a right facing Cocoa
+- `[!T2]`: set her as the speaker of the current line
+- `[!EI21]`: set her accessory to on (goggles for cocoa)
+- `[!EE22]`: set her eyes to type 2
+- `[!EB23]`: set her eyebrows to type 3
+- `[!EM21]`: set mouth to type 1
+- `[!ER24]`: set blush to max
+
+### Example 3
+```
+[!C1A>1<][!T1][!EP1:]
+```
 - Create a right facing Rumi without a portrait
+
+### Example 4 - NPC Emot
+```
+17
+[!T2][!C2]>5<][!EB22][!EM21][!EE21][~C594]
+```
+- `[!C2]>5<]`: Creates a blank character
+- `[~C594]`: Sets text box color to a light green
+- The rest of the format can be ignored.
