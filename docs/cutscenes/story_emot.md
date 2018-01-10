@@ -20,9 +20,9 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 
 ### `!C` Create a Character
 `[!CXY<Z>]`, where X, Y and Z are replaced by:
-- X: conversation ID of the created character. (1-6?)
-- Y: which character is created. (A-Z, from character list below)
-- Z determines distance from opposite of facing side. (0-9, `-` changes text box color without a portrait or character name)
+- X: Conversation ID of created character. (1-6?)
+- Y: Which character to create. (A-Z, see character list below)
+- Z  Position of character, (0-9, by distance from opposite of facing side). (`-` changes text box color without a portrait or character name)
 - Wrapping Z in `<>` causes the character to appear on the right facing left, `><` causes them to appear on the left facing right
 
 | ID  | Character | ID  | Character | ID  | Character | ID  | Character |
@@ -35,15 +35,15 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 | `F` | Pandora   | `M` | Lilith    | `T` | Miru      | `]` |No Character|
 | `G` | Irisu     | `N` | Vanilla   | `U` | Noah      |     |           |
 
-### `!T` Select speaking character
+### `!T` Select Speaking Character
 `[!TX]`, where X is replaced by:
-- X: talking character by their conversation ID.
+- X: Conversation ID of talking character.
 
-### `!E`: Set character emotion
+### `!E` Set Character Emotion
 `[!EXYZ]`, where X, Y and Z are replaced by:
-- X: which emotion part to modify. (from list of emotion parts below)
-- Y: which character to modify based on their conversation ID.
-- Z: emotion value.  Refer to portrait viewer in artbook.
+- X: Emotion part to modify. (see list of emotion parts below)
+- Y: Conversation ID of character to modify.
+- Z: Emotion Value.  Refer to portrait viewer in artbook.
 
 **Note:** Emotion values usually go from 0-9. But emotion values 10 and above can also be used by following the ASCII table. `:` is 10, `;` is 11, `<` is 12 etc.
 
@@ -59,14 +59,19 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 
 #### How to have a character speak without a portrait:
 `[!EPX:]`, where X is replaced by:
-- X: talking character by their conversation ID.
+- X: Conversation ID of character to speak.
+
+### `!M` Move Character Portrait
+`[!MXY]`, where X, Y are replaced by:
+- X: Conversation ID of character to move
+- Y: Position to move the character to (0-9)
 
 --------------------
 Additional Formats:
 
 ### `~C` Set Text Box Color
 `[~CRGB]`, where R, G, B are replaced by:
-- R,G,B: Red (0-9), Green (0-9) and Blue (0-9) respectively.
+- R, G, B: Red (0-9), Green (0-9) and Blue (0-9) respectively.
 - For example: `[~C900]` is red, `[~C099]` is cyan.
 - Only works if no talking character `]` is set. The talking character normally overrides the text box color with its own.
 
