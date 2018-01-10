@@ -109,6 +109,7 @@ If a block disappears, any collision attached to it also disappears. Conversely,
   434 - EV_VOIDBLOCK
   446 - EV_LIBBLOCK
   ```
+  (Some of these events only work if the DLC is installed)
 
 # Trigger events
 
