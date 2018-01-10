@@ -13,8 +13,8 @@ When the player hits a transition trigger, it warps the player to the map specif
 These events set the target map to transition to when the player next hits a map transition event.  Make sure the player passes through one of these before hitting a map transition event, to be sure they get directed to the correct map.
 - Note: It also works if the "set target map" event is hit after hitting the map transition trigger. (i.e. while Erina is walking, before the screen fades out)
 
-| Event ID | Target Map File |
-| --- | --- |
+| Event ID | Target Map |
+| :-: | :-: |
 | 161 | area0 |
 | 162 | area1 |
 | 163 | area2 |
@@ -33,7 +33,7 @@ Note: the actual game does not have any map transitions going to area6, area8 or
 The trigger event IDs trigger the transition; the player will end up at the corresponding target event.
 
 | Trigger Event ID | Target Event ID |
-| --- | --- |
+| :-: | :-: |
 | 200 | 227 |
 | 201 | 228 |
 | 202 | 229 |
