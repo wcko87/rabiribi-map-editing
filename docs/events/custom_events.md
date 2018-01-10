@@ -2,6 +2,8 @@
 
 These are events defined by GemaYue specifically for the map editor. These events only work in the beta version 1.8e or 1.85 onwards.
 
+**Note:** If there are no modifier events (5000+) at position X+1 (1 tile right of the custom event), the custom events will then search upward for modifier events instead (Y-1 instead of X+1, Y-2 instead of X+2, etc.)
+
 - **522 EV_NOPFLAG0**
 
     Disables effect of EV_NOPFLAG1 523
