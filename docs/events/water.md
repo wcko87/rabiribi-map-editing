@@ -14,7 +14,8 @@ When Erina touches 105 Water Up Ver, the game will search straight upward from t
 
 When Erina touches 102 No Water, the water is removed.
 
-Video: [water.mp4](https://cdn.discordapp.com/attachments/304270436911284224/348209420460752896/water.mp4)
+Video: [Changing Water Levels](https://gfycat.com/QueasyBriskFreshwatereel)
+[](https://cdn.discordapp.com/attachments/304270436911284224/348209420460752896/water.mp4)
 
 Event Layout corresponding to video:
 
