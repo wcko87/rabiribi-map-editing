@@ -43,6 +43,8 @@ If an entity uses direction modifiers, then use these events as modifiers instea
 
 Direction modifiers can be used along with type modifiers if you place the direction modifier in the event stack.
 
+**Note:** If an NPC walks into a left/right Direction Modifier tile, the NPC immediately turns to face that direction. This can be used to prevent NPCs from walking off ledges.
+
 # Entity List
 
 Names based off -debugshowevents tile names.
