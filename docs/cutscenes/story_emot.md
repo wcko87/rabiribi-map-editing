@@ -25,15 +25,15 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 - Z determines distance from opposite of facing side. (0-9, `-` changes text box color without a portrait or character name)
 - Wrapping Z in `<>` causes the character to appear on the right facing left, `><` causes them to appear on the left facing right
 
-| ID | Character | ID | Character | ID | Character | ID | Character |
-|----|-----------|----|-----------|----|-----------|----|-----------|
-| A  | Rumi      | H  | Saya      | O  | Chocolate | V  | Pixie     |
-| B  | Rita      | I  | Cicini    | P  | Kotri     | W  | Lilli     |
-| C  | Nieve     | J  | Syaro     | Q  | Keke Bunny| X  |OBJ_DRAGON3|
-| D  | Nixie     | K  | Cocoa     | R  | Seana     | Y  | Erina     |
-| E  | Aruraune  | L  | Ashuri    | S  | Miriam    | Z  | Ribbon    |
-| F  | Pandora   | M  | Lilith    | T  | Miru      | ]  |No Character|
-| G  | Irisu     | N  | Vanilla   | U  | Noah      |    |           |
+| ID  | Character | ID  | Character | ID  | Character | ID  | Character |
+|-----|-----------|-----|-----------|-----|-----------|-----|-----------|
+| `A` | Rumi      | `H` | Saya      | `O` | Chocolate | `V` | Pixie     |
+| `B` | Rita      | `I` | Cicini    | `P` | Kotri     | `W` | Lilli     |
+| `C` | Nieve     | `J` | Syaro     | `Q` | Keke Bunny| `X` |OBJ_DRAGON3|
+| `D` | Nixie     | `K` | Cocoa     | `R` | Seana     | `Y` | Erina     |
+| `E` | Aruraune  | `L` | Ashuri    | `S` | Miriam    | `Z` | Ribbon    |
+| `F` | Pandora   | `M` | Lilith    | `T` | Miru      | `]` |No Character|
+| `G` | Irisu     | `N` | Vanilla   | `U` | Noah      |     |           |
 
 ### `!T` Select speaking character
 `[!TX]`, where X is replaced by:
@@ -47,15 +47,15 @@ One line of emots should be created per line of dialogue in story_text.rbrb
 
 **Note:** Emotion values usually go from 0-9. But emotion values 10 and above can also be used by following the ASCII table. `:` is 10, `;` is 11, `<` is 12 etc.
 
-| ID | Emotion Part |
-|----|--------------|
-| B | Eyebrow |
-| M | Mouth |
-| E | Eye |
-| R | Blush (0-4) |
-| P | Alternate form (Kotri green = 1, kotri blue = 2) |
-| I | Item (0 or 1) |
-| T | Tears (0 or 1) |
+| ID  | Emotion Part |
+|-----|--------------|
+| `B` | Eyebrow |
+| `M` | Mouth |
+| `E` | Eye |
+| `R` | Blush (0-4) |
+| `P` | Alternate form (Kotri green = 1, kotri blue = 2) |
+| `I` | Item (0 or 1) |
+| `T` | Tears (0 or 1) |
 
 #### How to have a character speak without a portrait:
 `[!EPX:]`, where X is replaced by:
@@ -79,15 +79,15 @@ Additional Formats:
 ### `~F` Replace speaking character's name:
 `[~FX]`: where X is replaced by:
 
-| X = ?     | Name               | X = ?     | Name    | X = ?     | Name      |
-| :-------- | :----------------- | :-------- | :------ | :-------- | :-------- |
-| <= 0      | \<Character name\> | 7         | GemaYue | > (14)    | Luei      |
-| 1         | Pixie              | 8         | Saiste  | ? (15)    | Cross     |
-| 2         | Lilli              | 9         | AT2.    | @ (16)    | DUMP      |
-| 3         | ???                | : (10)    | Sirluma | A (17)    | M4        |
-| 4         | Mr. Tako           | ; (11)    | Laluk   | B (18)    | IAN       |
-| 5         | WAERO              | < (12)    | Skullo  | >= C (19) | \<Blank\> |
-| 6         | Jimbow             | = (13)    | Yarin   |           |           |
+| X = ?       | Name               | X = ?       | Name    | X = ?       | Name      |
+| :---------- | :----------------- | :---------- | :------ | :---------- | :-------- |
+| <= `0`      | \<Character name\> | `7`         | GemaYue | `>` (14)    | Luei      |
+| `1`         | Pixie              | `8`         | Saiste  | `?` (15)    | Cross     |
+| `2`         | Lilli              | `9`         | AT2.    | `@` (16)    | DUMP      |
+| `3`         | ???                | `:` (10)    | Sirluma | `A` (17)    | M4        |
+| `4`         | Mr. Tako           | `;` (11)    | Laluk   | `B` (18)    | IAN       |
+| `5`         | WAERO              | `<` (12)    | Skullo  | >= `C` (19) | \<Blank\> |
+| `6`         | Jimbow             | `=` (13)    | Yarin   |             |           |
 
 ### `~G` (seems to control CGs)
 `[~GX]`, where X is replaced by a number.
@@ -95,13 +95,13 @@ Additional Formats:
 ### `~M` Play music during cutscene
 `[~MX]`, where X is replaced by:
 
-| X = ?  | Music                     | X = ?  | Music              |
-| :----- | :------------------------ | :----- | :----------------- |
-| 0  | \<No change\>                 | 5      | Kitty Attack       |
-| 1  | Melting Point / Midstream Jam | 6      | Full On Combat     |
-| 2  | Get On With It                | 7      | Bounce Bounce      |
-| 3  | Sudden Death                  | 8      | Brawl Breaks       |
-| 4  | Hi-Tech Duel                  | 9+     | Brawl Breaks Ver.2 |
+| X = ?  | Music                      | X = ?  | Music              |
+| :----- | :------------------------- | :----- | :----------------- |
+| `0` | \<No change\>                 | `5`    | Kitty Attack       |
+| `1` | Melting Point / Midstream Jam | `6`    | Full On Combat     |
+| `2` | Get On With It                | `7`    | Bounce Bounce      |
+| `3` | Sudden Death                  | `8`    | Brawl Breaks       |
+| `4` | Hi-Tech Duel                  | `9`+   | Brawl Breaks Ver.2 |
 
 ----------------------------
 
