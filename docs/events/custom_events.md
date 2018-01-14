@@ -133,7 +133,7 @@ These are events defined by GemaYue specifically for the map editor. These event
     - k is the value of the X+1 tile (i.e. eventID: 5000 + k).
     - Music speed for each sound test icon:
     ```
-    FC2/Halloween:  38.5 %
+    Halloween:      38.5 %
     Instant Death:  50.0 %
     Chaos Rod:      66.7 %
     Giant:          85.0 %
