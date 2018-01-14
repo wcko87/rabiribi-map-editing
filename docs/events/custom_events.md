@@ -131,6 +131,20 @@ These are events defined by GemaYue specifically for the map editor. These event
     
     IF Erina passed these events, change music speed to k%.
     - k is the value of the X+1 tile (i.e. eventID: 5000 + k).
+    - Music speed for each sound test icon:
+    ```
+    FC2/Halloween:  38.5 %
+    Instant Death:  50.0 %
+    Chaos Rod:      66.7 %
+    Giant:          85.0 %
+    No water orb:   90.0 %
+    Default:       100.0 %
+    Speed Up:      112.5 %
+    Shrink:        120.0 %
+    Miru:          130.0 %
+    Cocoa Bomb:    150.0 %
+    Boss defeat:   170.0 %
+    ```
     
 - **552 EV_FULLAP**
 
