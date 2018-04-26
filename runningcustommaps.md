@@ -2,13 +2,15 @@
 
 ([Alternative guide by NuclearCheese for running Custom Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=1170578077))
 
-There are two methods.
-### Method 1: Version 1.8e / 1.85
-The 1.8e beta version includes special features specifically to support Rabi-Ribi custom maps. This also works from 1.85 onwards.
-1. Add the map files to `Rabi-Ribi\custom\<your map name>`. (each custom map should be in its own folder)
-2. After starting Rabi-Ribi, press F5 or F6 to open up the [custom maps menu](https://user-images.githubusercontent.com/27341392/30108930-ee520480-9336-11e7-9a82-bf40ca1ae89e.png). Select the custom map and start a new game. 
+1. Create custom map folder `Rabi-Ribi\custom\<your map name>`
+2. Add map files (`area0.map`,`area1.map` etc etc) to the custom map folder (`Rabi-Ribi\custom\<your map name>`)
+3. In Rabi-Ribi, press **F5** or **F6** to open the [custom maps menu](https://user-images.githubusercontent.com/27341392/30108930-ee520480-9336-11e7-9a82-bf40ca1ae89e.png). Select the custom map and start a new game.
 
-### Method 2: Replacing maps
+![instructions_custom_maps](https://user-images.githubusercontent.com/27341392/39337459-aa31db66-49ef-11e8-9663-5c0c4c9f19e5.png)
+
+(You need Rabi-Ribi v1.8e / v1.85 or higher for the custom maps menu. The custom maps menu does not exist for v1.8 and below.)
+
+### Alternate Method: Replacing maps (not recommended)
 This was the original method before the 1.8e beta / 1.85 started supprting custom maps.
 1. Replace the maps in `Rabi-Ribi\data\area\` (remember to back up the maps before you do this)
 2. Start up Rabi-Ribi and start a new game normally.
