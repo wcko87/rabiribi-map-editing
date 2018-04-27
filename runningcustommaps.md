@@ -1,4 +1,4 @@
-# How to play Custom Rabi-Ribi Maps
+# How to play Rabi-Ribi Custom Maps
 
 ([Alternative guide by NuclearCheese for running Custom Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=1170578077))
 
