@@ -225,7 +225,7 @@ eventid, in-game event, function
 495, EV_LOSTITEM, 
 496, EV_HW, 
 497, EV_NOHW, 
-498, EV_STARTDLCIRISU, Dialog with Irisu in Town to activate Is The Order a DLC? Advances game to Extra Chapter.
+498, EV_STARTDLCIRISU, Dialog with Irisu in Town to activate Is The Order a DLC? Advances game to Extra Chapter. Warps Erina to Rabi Ribi Ravine.
 499, EV_CHANGECLOTH, 
 500, EV_RIBIFRIENDDLC, 
 501, EV_ERINAMEMORY1, 
