@@ -221,11 +221,11 @@ eventid, in-game event, function
 491, EV_BEFOREERINA, 
 492, EV_FALLINTOERINA, 
 493, EV_VSERINA, 
-494, EV_DLC2START, 
+494, EV_DLC2START, Initial dialog when entering Hall of Memories 2.
 495, EV_LOSTITEM, 
 496, EV_HW, 
 497, EV_NOHW, 
-498, EV_STARTDLCIRISU, 
+498, EV_STARTDLCIRISU, Dialog with Irisu in Town to activate Is The Order a DLC? Advances game to Extra Chapter.
 499, EV_CHANGECLOTH, 
 500, EV_RIBIFRIENDDLC, 
 501, EV_ERINAMEMORY1, 
