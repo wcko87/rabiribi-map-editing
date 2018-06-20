@@ -1,6 +1,6 @@
-eventid, in-game event
+eventid, in-game event, function
 256, EV_FIRSTBOSS
-257, EV_MEETFAIRY
+257, EV_MEETFAIRY, Initial Ribbon encounter. Triggers Ribbon boss fight.
 258, EV_REACHMANA
 259, EV_SECONDBOSS
 260, EV_3RDBOSS
@@ -24,7 +24,7 @@ eventid, in-game event
 278, EV_SEABOSS
 279, EV_AFTERVVVVVV
 280, EV_PCCALLBACK
-281, EV_DJPC
+281, EV_DJPC, Activates Warp Stones in-game.
 282, EV_FAIRYEXPLAIN
 283, EV_CAVELORR
 284, EV_FORESTBOSS
