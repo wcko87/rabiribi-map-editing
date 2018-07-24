@@ -202,4 +202,12 @@ These are events defined by GemaYue specifically for the map editor. These event
     
     IF Erina passes this event, set carrot bomb exp to k.
     - k is the value of the X+1 tile * 100 (i.e. eventID: 5000 + k/100)
+    
+- **562 EV_SETUPWIND0**
+    
+    IF Erina passes this event, turn off upward wind (status will not save to save file)
 
+- **563 EV_SETUPWIND1**
+
+    IF Erina passes this event, turn on upward wind (status will not save to save file)
+    - Upward wind is the effect during the Pixie & Lilli boss fight
