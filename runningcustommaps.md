@@ -6,7 +6,7 @@
 2. Add map files (`area0.map`,`area1.map` etc etc) to the custom map folder (`Rabi-Ribi\custom\<your map name>`)
 3. In Rabi-Ribi, press **F5** or **F6** to open the [custom maps menu](https://user-images.githubusercontent.com/27341392/30108930-ee520480-9336-11e7-9a82-bf40ca1ae89e.png). Select the custom map and start a new game.
 
-![instructions_custom_maps](https://user-images.githubusercontent.com/27341392/39337459-aa31db66-49ef-11e8-9663-5c0c4c9f19e5.png)
+![instructions_custom_maps](https://user-images.githubusercontent.com/27341392/52190055-9eaf0400-2877-11e9-973a-a0993b460e28.png)
 
 (You need Rabi-Ribi v1.8e / v1.85 or higher for the custom maps menu. The custom maps menu does not exist for v1.8 and below.)
 
