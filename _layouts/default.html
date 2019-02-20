@@ -9,15 +9,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <script>
-      (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://assets.gfycat.com/gfycat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'gfycat-js'));
-    </script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -69,5 +60,29 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script>
+      <!-- CODE TO DISPLAY GFYCAT GIFS. -->
+      $( document ).ready(function() {
+      var url = 'https://api.gfycat.com/v1/gfycats/'
+        $('.gfyitem').each(function(index) {
+          var gifID = $(this).attr('data-id');
+          var itemImg = $(this);
+          $.ajax({
+            url:url+gifID, type:"GET", dataType:"text",
+            success: function( textData ) {
+              var data = JSON.parse(textData);
+              var videoString = '<div id="'+gifID+'"><video style="width:100%;max-width:800px;height:auto;" loop="true" autoplay="true" muted><source src="'
+              +data.gfyItem.mobileUrl+
+              '" type="video/mp4" media="all and (max-width:480px)"><source src="'
+              +data.gfyItem.webmUrl+
+              '" type="video/webm"><source src="'
+              +data.gfyItem.mp4Url+
+              '" type="video/mp4"></video></div>';
+              itemImg.replaceWith(videoString);
+            }
+          });
+        })
+      })
+    </script>
   </body>
 </html>
