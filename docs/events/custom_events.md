@@ -211,3 +211,46 @@ These are events defined by GemaYue specifically for the map editor. These event
 
     IF Erina passes this event, turn on upward wind (status will not save to save file)
     - Upward wind is the effect during the Pixie & Lilli boss fight
+    
+- **546 EV_CHANGECHARACTER**
+
+    IF Erina passes this event, her sprite turns into that of entity N, where N is value of modifier.
+    Modifier is 5000 + N and has to be set in the X+1 tile.
+    e.g. Erina turns into Cicini when passing through a 564 event with 5018 modifier next to it. (18 being Cicini ID).
+    IF no modifier is set, Erina will turn back to Erina again when crossing event 564.
+    
+- **565 EV_CUSTOMTEXT**
+
+    Displays custom text LINE N at this tile where N is value of modifier. Modifier is 5000 + N and has to be set in the X+1 tile.Custom text is stored in  story_text.rbrb (a rbrb file start at line0, not 1).
+    e.g. To display dialogue line 10 from story_text.rbrb you need event 565 and modifier 5009 next to it.
+      
+- **573 EV_EGGBLOCK**
+    
+    This event has to be attached to a collision tile. The block breaks if egg collected >= N, Where N is value of modifier (For example , 5005 mean need 5 egg to break).
+    
+- **574 EV_EVENTBLOCK**
+
+    This event has to be attached to a collision tile. The block breaks if event N is flagged, Where N is value of modifier (for example Cocoa1 Battle is 256, so modifier is 5256)
+
+- **575 EV_EVENTBLOCKR**
+
+    This event has to be attached to a collision tile. The block spawns if event N is flagged, where N is value of modifier (for example Cocoa1 Battle is 256, so modifier is 5256).
+    
+- **576 EV_TRIGGERBLOCK1**
+- **577 EV_TRIGGERBLOCK2**
+- **578 EV_TRIGGERBLOCK3**
+- **579 EV_TRIGGERBLOCK4**
+- **580 EV_TRIGGERBLOCK5**
+
+These events have to be attached to collision tiles. They are similar to DLC 2 blocks in Hall of Mmemories II (events 512 to 515) except they work outside of DLCs. They work as switch and doors.
+They break if event N is not flagged, Where N is this event id.
+e.g. To break a block which has collision and event 576 attached, Erina needs to pass through a 576 event.
+
+- **581 EV_TRIGGERBLOCKR1**
+- **582 EV_TRIGGERBLOCKR2**
+- **583 EV_TRIGGERBLOCKR3**
+- **584 EV_TRIGGERBLOCKR4**
+- **585 EV_TRIGGERBLOCKR5**
+
+These events work in reverse. They spawn if event N is flagged, where N is this event id.
+e.g. To make a block which has collision and event 581 attached appear, Erina needs to pass through a 581 event.
