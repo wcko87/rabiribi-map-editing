@@ -208,8 +208,8 @@ eventid, in-game event, function
 464, EV_SAYAEX, Triggers SP Saya boss fight. Only works if Background 128 is used and if chapter 9 is set. Needs DLC 2 installed.
 465, EV_CATSEX, Triggers Halloween Cats boss fight. Requires event 496.
 480, EV_NODLCYET, 
-481, EV_PLAYDLCBGM1, Music trigger for track "Plan B"
-482, EV_PLAYDLCBGM2, Music trigger for track "Rabi Rabi Ravine ver.2"
+481, EV_PLAYDLCBGM1, Music trigger for track Plan B.
+482, EV_PLAYDLCBGM2, Music trigger for track Rabi Rabi Ravine ver.2.
 483, EV_FALLHILL, Erina takes fall damage and her position is reset to the edge of the screen. Works outside of DLC 2.
 484, EV_PIXIELILLI, Triggers Lilli and Pixie boss fight.
 485, EV_ESCAPE, Triggers the escape event. Wind appears and all blocks with event 160 on them turn solid until event 486 is reached.
