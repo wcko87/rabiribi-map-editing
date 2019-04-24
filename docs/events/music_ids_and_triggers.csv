@@ -31,7 +31,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 29, PLURKWOOD, 157, 
 30, ANOTHER D, 158, Hall of Memories
 31, ICY SUMMIT, 159, 
-32, PLAN B,, music IDs >31 do not have music triggers. See event 557 in custom_events.md
+32, PLAN B,, music IDs >31 do not have music triggers. See event 557 in custom_events.md. Event 481 plays this track.
 33, MIDBOSS BATTLE,,
 34, MELTING POINT,,
 35, MIRIAM'S SHOP,,
@@ -54,7 +54,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 52, M.R.,,
 53, MAIN MENU,,
 54, SUDDEN DEATH,,
-55, RABI RABI RAVINE VER.2,,
+55, RABI RABI RAVINE VER.2, Upper Ravine DLC2 section, Even 482 plays this track.
 56, AZURE,,
 57, ARTBOOK INTRO,,
 58, RABI-RIBI PIANO TITLE,,
