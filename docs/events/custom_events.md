@@ -242,9 +242,9 @@ These are events defined by GemaYue specifically for the map editor. These event
 - **579 EV_TRIGGERBLOCK4**
 - **580 EV_TRIGGERBLOCK5**
 
-These events have to be attached to collision tiles. They are similar to DLC 2 blocks in Hall of Mmemories II (events 512 to 515) except they work outside of DLCs. They work as switch and doors.
-They break if event N is not flagged, Where N is this event id.
-e.g. To break a block which has collision and event 576 attached, Erina needs to pass through a 576 event.
+    These events have to be attached to collision tiles. They are similar to DLC 2 blocks in Hall of Mmemories II (events 512 to 515) except they work outside of DLCs. They work as switch and doors.
+    They break if event N is not flagged, Where N is this event id.
+    e.g. To break a block which has collision and event 576 attached, Erina needs to pass through a 576 event.
 
 - **581 EV_TRIGGERBLOCKR1**
 - **582 EV_TRIGGERBLOCKR2**
@@ -252,5 +252,5 @@ e.g. To break a block which has collision and event 576 attached, Erina needs to
 - **584 EV_TRIGGERBLOCKR4**
 - **585 EV_TRIGGERBLOCKR5**
 
-These events work in reverse. They spawn if event N is flagged, where N is this event id.
-e.g. To make a block which has collision and event 581 attached appear, Erina needs to pass through a 581 event.
+    These events work in reverse. They spawn if event N is flagged, where N is this event id.
+    e.g. To make a block which has collision and event 581 attached appear, Erina needs to pass through a 581 event.
