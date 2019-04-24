@@ -1,54 +1,54 @@
 eventid, in-game event, function
-256, EV_FIRSTBOSS, 
-257, EV_MEETFAIRY, Initial Ribbon encounter. Triggers Ribbon boss fight.
+256, EV_FIRSTBOSS, Triggers Cocoa1 boss fight.
+257, EV_MEETFAIRY, Initial Ribbon encounter. Triggers Ribbon boss fight. Enables some entities to spawn (bouncing cats for instance)
 258, EV_REACHMANA, 
 259, EV_SECONDBOSS, 
-260, EV_3RDBOSS, 
-261, EV_1STRUMI, 
-262, EV_4THBOSS, 
+260, EV_3RDBOSS, Triggers Ashuri1 boss fight. Does not recruit Ashuri. Is not required to trigger Ashuri2.
+261, EV_1STRUMI, meet Rumi in town cutscene/starts chapter 1 and gives a donut and cake if viewed WARNING: moves you into area 5 to show Miru and warps you to a set location in area 5 at the end
+262, EV_4THBOSS, Triggers Rita boss fight and recruits Rita.
 263, EV_FAIRYBOSS, 
-264, EV_FIRSTBOSSII, 
-265, EV_PCBOSS, 
-266, EV_VVVVVV, 
-267, EV_PYBOSS, 
-268, EV_HILLBOSS, 
-269, EV_MAIDBOSS, 
+264, EV_FIRSTBOSSII, Triggers Cocoa2 boss fight if event 364 is flagged.
+265, EV_PCBOSS, Triggers Cicini boss fight. Needs event 1016 to be in the same room. Warps Erina to area2 after the post-fight cutscene.
+266, EV_VVVVVV, Triggers the system interior II endurance fight.
+267, EV_PYBOSS, Triggers Shadow Pandora fight.
+268, EV_HILLBOSS, Triggers Saya boss fight. Does not recruit Saya.
+269, EV_MAIDBOSS, Triggers Syaro boss fight. There are a lot of requirements (events 265, 357, 341)
 270, EV_REACHISLANDTOTOWER, 
-271, EV_SNOWBOSS, 
-272, EV_SNOWBOSSII, 
+271, EV_SNOWBOSS, Triggers Nieve boss fight. Enables event 272 and 390.
+272, EV_SNOWBOSSII, Triggers Nixie boss fight if event 271 is flagged. Recruits Nieve and Nixie.
 273, EV_SNOWRM, 
 274, EV_PCTALKAFTERMAID, 
-275, EV_MAIDTELEPORT, 
+275, EV_MAIDTELEPORT, Unused. Triggers a cutscene that warps Erina where she already is.
 276, EV_GOTORUMI, 
-277, EV_SPIKE, 
-278, EV_SEABOSS, 
-279, EV_AFTERVVVVVV, 
+277, EV_SPIKE, Triggers a cutscene in which Erina steps back. Works only once.
+278, EV_SEABOSS, Triggers Seana1 boss fight. Does not recruit Seana.
+279, EV_AFTERVVVVVV, Cutscene after endurance fight in System Interior II.
 280, EV_PCCALLBACK, 
-281, EV_DJPC, Activates Warp Stones in-game.
+281, EV_DJPC, Activates Warp Stones in-game. Event does not work if Rabi slippers or Air jump is on.
 282, EV_FAIRYEXPLAIN, 
 283, EV_CAVELORR, 
-284, EV_FORESTBOSS, 
+284, EV_FORESTBOSS, Triggers Aruraune boss fight and recruits Aruraune.
 285, EV_CRYSTALBOSS, 
 286, EV_CRYSTALOPENED, 
 287, EV_CITYS1, 
 288, EV_CITYS2, 
-289, EV_SCBBOSS, 
-290, EV_BRIDGEBOSS, 
+289, EV_SCBBOSS, Triggers Lilith1 boss fight. Does not recruit Lilith.
+290, EV_BRIDGEBOSS, Triggers Vanilla boss fight. Recruits Vanilla.
 291, EV_BRIDGEBOSSII, 
 292, EV_3RDBOSSII, 
 293, EV_BBUNNY, 
 294, EV_DOUBLECAT, 
-295, EV_FIREBOSS, 
-296, EV_MAZEBOSS, 
+295, EV_FIREBOSS, Triggers Kotri3 boss fight (red form). Recruits Kotri.
+296, EV_MAZEBOSS, Triggers Miriam boss fight. Recruits Miriam. Disables event 363.
 297, EV_TELEPORT, 
 298, EV_TELEPORT2, 
 299, EV_GODOWN, 
-300, EV_FIRSTPY, 
+300, EV_FIRSTPY, Cutscene where Erina takes a step back and Ribbon refuses she goes further. Does not work outside of prologue.
 301, EV_NOLEFT, 
-302, EV_SHOPOUT, 
+302, EV_SHOPOUT, Cutscene in which Erina sees the shop.
 303, EV_EDFLAG, 
 304, EV_LOOPED, 
-307, EV_BUNNY2, 
+307, EV_BUNNY2, Triggers UPRPRC fight in Starting forest. Warps Erina to eastern end of Western Coast (area1).
 308, EV_HOSP1, 
 309, EV_HOSPBACK, 
 310, EV_HOSP2, 
@@ -57,36 +57,36 @@ eventid, in-game event, function
 313, EV_HIGHWAYBOSS, 
 314, EV_FINALBOSSX, 
 315, EV_RITA, 
-316, EV_STG1, 
-317, EV_NOMORESTG1, 
+316, EV_STG1, Triggers aerial fight with Lilith. Requires event 265 and 289 (Cicini and Lilith fight). Recruits Lilith and spawns you to starting location once she is beaten.
+317, EV_NOMORESTG1, Prevents Erina from going further is event 316 has been flagged.
 318, EV_GOLEM, 
 319, EV_ALPHATEST, 
 320, EV_BEFOREGOLEM, 
-321, EV_MEETRITAP, 
-322, EV_MEETFIRE, 
-323, EV_BUNNY2B, 
-324, EV_CATMINI, 
+321, EV_MEETRITAP, Cutscene in which Erina sees Saya and Rita in ravine. Does not work outside of prologue.
+322, EV_MEETFIRE, Triggers Kotri1 boss fight (green form) only if coming from the right. Is not required to trigger Kotri2.
+323, EV_BUNNY2B, Triggers UPRPRC fight in beach. Allows use of Boost. Cutscene throws error message though.
+324, EV_CATMINI, Triggers Chocolate boss fight. Recruits Chocolate. Does not work during prologue. Requires event 261.
 325, EV_PRPRTEAM, 
-326, EV_SEELAB, 
-327, EV_INLAB, 
-328, EV_LASERLAB, 
-329, EV_CAVELAB, 
+326, EV_SEELAB, Cutscene when Erina is about to enter lab.
+327, EV_INLAB, Cutscene at the entrance of lab.
+328, EV_LASERLAB, Cutscene where Erina starts an alarm system in lab.
+329, EV_CAVELAB, Cutscene where Cicini talks about her room being in the lab (when entering sliding power room).
 330, EV_FINALLAB, 
-331, EV_REDBOT, 
+331, EV_REDBOT, Triggers Mr. Big Box fight.
 332, EV_SPRINGLAB, 
 333, EV_MAIDTEAM, 
-334, EV_RUINDOWN, 
-335, EV_RUINWRONG, 
-336, EV_RUINNEAR, 
-337, EV_IRISUSTALK1, 
+334, EV_RUINDOWN, Cutscene where Cicini tells Erina how to get to the lab. Requires event 357.
+335, EV_RUINWRONG, Another cutscene requiring 357.
+336, EV_RUINNEAR, idem.
+337, EV_IRISUSTALK1, Cutscene in which Erina sees Irisu running away (in the ruins).
 338, EV_CANENTERCYBER, 
 339, EV_PRPRBASEENTER, 
 340, EV_CYBERCOUNTER, 
-341, EV_BEFORECYBER, 
-342, EV_WATERWARNING, 
+341, EV_BEFORECYBER, Cutscene where Erina finds the computer room in Lab. Warps Erina to town (area5) and gives 17500 EN. Requires event 357.
+342, EV_WATERWARNING, Cutscene in which Ribbon warns Erina about entering water areas. Doesn't play if Erina has water orb.
 343, EV_BOSS3B, 
-344, EV_IRISUBOSS, 
-345, EV_CAVECRYSTALBOSS, 
+344, EV_IRISUBOSS, Triggers Irisu boss fight, recruits Irisu, plays credits and warps Erina in town (area5). 
+345, EV_CAVECRYSTALBOSS, Triggers Crystal boss fight. Does not recruit Ashuri. Only works if event 365 is flagged. Enables event 366.
 346, EV_ENTERLIBRARY, 
 347, EV_SHOPPINGCENTER, 
 348, EV_FIRSTCITY, 
@@ -98,49 +98,49 @@ eventid, in-game event, function
 354, EV_ENOUGH4, 
 355, EV_ENOUGH7, 
 356, EV_ENOUGH10, 
-357, EV_TOWNPC, 
-358, EV_PCMEETMAID, 
+357, EV_TOWNPC, Warps Erina to area4 and enables access to Lab. Requires event 265.
+358, EV_PCMEETMAID, Triggers Syaro and Cicini cutscene. Recruits Syaro.
 359, EV_FIRSTBOSSIII, 
-360, EV_COCOA, 
+360, EV_COCOA, Cutscene at the entrance of Forgotten Cave I. Requires event 388. Breaks blocks with event 43 attached.
 361, EV_SNOWBLOCK, 
 362, EV_LIBRARYNOTYET, 
-363, EV_NOVOIDYET, 
-364, EV_COCOAFLAG, 
-365, EV_TOWNASHLEY, 
-366, EV_ASHLEYCRYSTAL, 
+363, EV_NOVOIDYET, Erina steps back unless Miriam is defeated (event 296).
+364, EV_COCOAFLAG, No apparent effect but enables event 264 (Cocoa2).
+365, EV_TOWNASHLEY, Enables event 345 (crystal fight). Requires event 343 (Ashuri 2 fight).
+366, EV_ASHLEYCRYSTAL, Requires event 345 (crystal fight). Recruits Ashuri.
 367, EV_OPENBOTTLE, 
 368, EV_BEFOREFINALBOSS1, 
 369, EV_BEFOREFINALBOSS2, 
 370, EV_FINALBOSS, 
-371, EV_FIRSTPYB, 
+371, EV_FIRSTPYB, Triggers Pandora boss fight. Recruits Pandora and breaks Pandora blocks (event 110).
 372, EV_FIRSTPYC, 
 373, EV_1STSHOP, 
 374, EV_1STSHOPB, 
-375, EV_ICELAND, 
-376, EV_TOWNPC2, 
-377, EV_MAIDBOT, 
-378, EV_GIVEKICK, 
-379, EV_DANCERB, 
-380, EV_RABITOWNOUT, 
-381, EV_RABITOWNIN, 
+375, EV_ICELAND, Triggers the cutscene at the entrance of Northern Tundra.
+376, EV_TOWNPC2, Cutscene in which Cicini asks to find Syaro. Requires events 265, 357, 341.
+377, EV_MAIDBOT, Triggers Maid fight in lab.
+378, EV_GIVEKICK, Cutscene in which Miriam gives Bunny strike. Item is actually given.
+379, EV_DANCERB, Triggers Kotri2 boss fight (blue form). Enables event 295.
+380, EV_RABITOWNOUT, Cutscene where Erina is about to enter Rabi Rabi Town.
+381, EV_RABITOWNIN, Cutscene where Erina has just entered town.
 382, EV_SEEHIGHJUMP, 
 383, EV_OLDHOME, 
-384, EV_RUMISHOP, 
+384, EV_RUMISHOP, Allows use of consumables. Warning: without Ribbon, game crashes if you go to the magic type menu.
 385, EV_PRPRBOT1, 
 386, EV_PRPRBOT2, 
 387, EV_PRPRBOT3, 
 388, EV_COCOACAVE, 
 389, EV_NOTRIGHTBEFORERUMI, 
-390, EV_SNOWBOSSSAVE, 
-391, EV_RIBIFRIEND, 
-392, EV_RIBIFRIEND2, 
+390, EV_SNOWBOSSSAVE, Cutscene in which Nieve asks to find Nixie. Requires event 271.
+391, EV_RIBIFRIEND, Cutscene where Lilli and Pixie update diary with hint to Aurora Palace/hint is not given on diary if you have fought Nieve or if this flag is set directly
+392, EV_RIBIFRIEND2, Cutscene where Lilli and Pixie update diary with hint to Lilith and Aruraune/individual hints are not given on diary if you have fought the respective fights or if this flag is set directly
 393, EV_FORESTHELP1, 
 394, EV_FORESTHELP2, 
-395, EV_CRYSTALDANCER, 
-396, EV_SEANASAVE, 
+395, EV_CRYSTALDANCER, Cutscene where Erina finds Pandora and Kotri looking for the Crystal. Requires event 365.
+396, EV_SEANASAVE, Cutscene where Cicini tells you to meet Seana at the west gate of Rabi town. Requires having fought Cicini, Syaro, Nieve, Nixie, Vanilla, Chocolate and Seana1.
 397, EV_OPENING2, 
-398, EV_HILLBOSS2, 
-399, EV_SEANASING, 
+398, EV_HILLBOSS2, Triggers final cutscene with Saya. Recruits Saya.
+399, EV_SEANASING, Triggers Seana2 boss fight. Requires having fought Nieve, Nixie, Cicini, Syaro, Vanilla, Chocolate and Seana1.
 400, EV_FINDBOX, 
 401, EV_CANNOTLEAVEHOSP, 
 402, EV_FIRSTBADGE, 
@@ -152,30 +152,30 @@ eventid, in-game event, function
 408, EV_3TYPE, 
 409, EV_CCC, 
 410, EV_TOWNPPL, 
-411, EV_CREDIT, 
-412, EV_RUMIBOSS, 
+411, EV_CREDIT, Starts ending sequence/recruits all five end game town members/warps you around so make sure areas exist.
+412, EV_RUMIBOSS, Triggers Rumi boss fight. Recruits Rumi and starts chapter 7.
 413, EV_OTAKUF, 
 414, EV_OTAKUS, 
-415, EV_USERITA, 
+415, EV_USERITA, Triggers side chapter. Requires having recruited 5 town members. Rita will fight 1st 4th and 5th recruits. If one of them shouldn't be there in side chapter (Rumi, Irisu, Lilli, Pixie or other) it makes the game softlock.
 416, EV_RITATOWN1, 
 417, EV_RITATOWN2, 
 418, EV_RITATOWN3, 
 419, EV_POSTGAME1, 
-420, EV_RITASAYA, 
+420, EV_RITASAYA, Cutscene in which Erina sees Saya and Rita in Volcanic caverns. Requires chapter 6.
 421, EV_ERINA, 
 422, EV_NONOFORM2, 
 423, EV_NONOFORM2B, 
-424, EV_NOTLAB, 
+424, EV_NOTLAB, Erina takes a step back unless Cicini is defeated and event 357 is flagged.
 425, EV_PIT, 
 426, EV_GOWEST, 
-427, EV_UPRPRC3, 
-428, EV_UPRPRC4, 
-429, EV_DARKAREA, 
-430, EV_DARKAREA2, 
+427, EV_UPRPRC3, Triggers UPRPRC boss fight in Night forest.
+428, EV_UPRPRC4, Triggers UPRPRC boss fight in Evernight peak.
+429, EV_DARKAREA, Cutscene where Ribbon warns Erina about darkness. Erina does not take a step back.
+430, EV_DARKAREA2, idem with another one.
 431, EV_NOEVENT, 
-432, EV_ALLJOINED, 
-433, EV_ENTERVOID, 
-434, EV_VOIDBLOCK, 
+432, EV_ALLJOINED, Recruits every town member except Keke Bunny and DLC characters.
+433, EV_ENTERVOID, Cutscene at the entrance of Forgotten Cave II.
+434, EV_VOIDBLOCK, Switch/door blocks (working in reverse). Blocks spawn once event is triggered.
 435, EV_REDCYBER, 
 436, EV_NOCICINI, 
 437, EV_BEFORERED, 
@@ -189,14 +189,14 @@ eventid, in-game event, function
 445, EV_IRISUEVENTD2, 
 446, EV_LIBBLOCK, 
 447, EV_FINDIRISU, 
-448, EV_PLURKMEAT, 
-449, EV_PLURKENTER, 
-450, EV_PLURKTAKO, 
-451, EV_PLURKMIDBOSS, 
-452, EV_PLURKBOSS, 
-453, EV_PLURKTAKO2, 
+448, EV_PLURKMEAT, Cutscene where Erina sees a meatbone before entering Plurkwood.
+449, EV_PLURKENTER, Cutscene before Erina sees Mr. Tako.
+450, EV_PLURKTAKO, Cutscene where Tako asks you to find Keke Bunny. It is not a requirement for event 452.
+451, EV_PLURKMIDBOSS, Triggers Plurk twin cats boss fight. Also can be used as switch/door.
+452, EV_PLURKBOSS, Triggers Keke Bunny boss fight. Does not recruit Keke Bunny but she spawns in town. Talk to her to recruit her.
+453, EV_PLURKTAKO2, Cutscene where Mr. Tako gives you P airpin. Requires event 452.
 454, EV_FPS, 
-455, EV_PLURKBLOCK, 
+455, EV_PLURKBLOCK, Blocks that remain solid until Keke Bunny is defeated. Can be used as switch/doors.
 456, EV_REFLECTED99, 
 457, EV_REFLECTED300, 
 458, EV_WATERAREA, 
@@ -205,15 +205,15 @@ eventid, in-game event, function
 461, EV_COCOA1EX, 
 462, EV_RIBBONEX, 
 463, EV_ASHURI1EX, 
-464, EV_SAYAEX, 
-465, EV_CATSEX, 
+464, EV_SAYAEX, Triggers SP Saya boss fight. Only works if Background 128 is used and if chapter 9 is set. Needs DLC 2 installed.
+465, EV_CATSEX, Triggers Halloween Cats boss fight. Requires event 496.
 480, EV_NODLCYET, 
-481, EV_PLAYDLCBGM1, 
-482, EV_PLAYDLCBGM2, 
-483, EV_FALLHILL, 
-484, EV_PIXIELILLI, 
-485, EV_ESCAPE, 
-486, EV_ESCAPEEND, 
+481, EV_PLAYDLCBGM1, Music trigger for track "Plan B"
+482, EV_PLAYDLCBGM2, Music trigger for track "Rabi Rabi Ravine ver.2"
+483, EV_FALLHILL, Erina takes fall damage and her position is reset to the edge of the screen. Works outside of DLC 2.
+484, EV_PIXIELILLI, Triggers Lilli and Pixie boss fight.
+485, EV_ESCAPE, Triggers the escape event. Wind appears and all blocks with event 160 on them turn solid until event 486 is reached.
+486, EV_ESCAPEEND, Ends the escape and chapter 9. Erina warps to area3 and to area 5. Fairies flute is given to Erina and event 494 is automatically initiated.
 487, EV_HILLENTER, 
 488, EV_PUZZLECLEAR, 
 489, EV_FOUNDQB, 
@@ -222,30 +222,30 @@ eventid, in-game event, function
 492, EV_FALLINTOERINA, 
 493, EV_VSERINA, 
 494, EV_DLC2START, Initial dialog when entering Hall of Memories 2.
-495, EV_LOSTITEM, 
-496, EV_HW, 
-497, EV_NOHW, 
+495, EV_LOSTITEM, Initial dialog when entering Hall of Memories 2. Breaks blocks with event 480 attached.
+496, EV_HW, Triggers DLC 1 cutscene where Cicini Lilith and Syaro prepare Halloween. Requires them to be recruited. Enables event 465.
+497, EV_NOHW, Blocks with this event remain solid if DLC 1 is not installed. They break if it is installed.
 498, EV_STARTDLCIRISU, Dialog with Irisu in Town to activate Is The Order a DLC? Advances game to Extra Chapter. Warps Erina to Rabi Ribi Ravine.
 499, EV_CHANGECLOTH, 
 500, EV_RIBIFRIENDDLC, 
-501, EV_ERINAMEMORY1, 
-502, EV_ERINAMEMORY2, 
-503, EV_ERINAMEMORY3, 
-504, EV_ERINAMEMORY4, 
-505, EV_ERINAMEMORY5, 
-506, EV_ERINAMEMORY6, 
-507, EV_ERINAMEMORY7, 
-508, EV_ERINAMEMORY8, 
+501, EV_ERINAMEMORY1, Cutscene with Erina and Erina the forgotten maiden.
+502, EV_ERINAMEMORY2, idem.
+503, EV_ERINAMEMORY3, idem.
+504, EV_ERINAMEMORY4, idem.
+505, EV_ERINAMEMORY5, idem.
+506, EV_ERINAMEMORY6, idem.
+507, EV_ERINAMEMORY7, idem.
+508, EV_ERINAMEMORY8, idem.
 509, EV_VSERINA_CHECKPOINT, 
 510, EV_DLCBLOCK, 
 511, EV_____________, 
-512, EV_MEMORYRED, 
-513, EV_MEMORYBLUE, 
-514, EV_MEMORYGREEN, 
-515, EV_MEMORYPURPLE, 
-516, EV_B_MEMORYRED, 
-517, EV_B_MEMORYBLUE, 
-518, EV_B_MEMORYGREEN, 
-519, EV_B_MEMORYPURPLE, 
+512, EV_MEMORYRED, DLC2 HoM2 blocks. Can be used as switch/door if DLC 2 is installed.
+513, EV_MEMORYBLUE, idem.
+514, EV_MEMORYGREEN, idem.
+515, EV_MEMORYPURPLE, idem.
+516, EV_B_MEMORYRED, Triggers fight against Red bunny in HoM2. Breaks blocks with event 512.
+517, EV_B_MEMORYBLUE, same with Blue bunny and event 513.
+518, EV_B_MEMORYGREEN, same with Green bunny and event 514.
+519, EV_B_MEMORYPURPLE, same with Purple bunny and event 515.
 520, EV_UPDOWNRED, 
-521, EV_ALLJOINED2, 
+521, EV_ALLJOINED2, Recruits Lilli, Pixie and Erina the forgotten Maiden.
