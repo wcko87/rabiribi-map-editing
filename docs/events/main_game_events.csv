@@ -156,7 +156,7 @@ eventid, in-game event, function
 412, EV_RUMIBOSS, Triggers Rumi boss fight. Recruits Rumi and starts chapter 7.
 413, EV_OTAKUF, 
 414, EV_OTAKUS, 
-415, EV_USERITA, Triggers side chapter. Requires having recruited 5 town members. Rita will fight 1st 4th and 5th recruits. If one of them shouldn't be there in side chapter (Rumi, Irisu, Lilli, Pixie or other) it makes the game softlock.
+415, EV_USERITA, Triggers side chapter. Requires having recruited 5 town members. Rita will fight 1st 4th and 5th recruits. If one of them shouldn't be there in side chapter (Rumi Irisu Lilli Pixie or other) it makes the game softlock.
 416, EV_RITATOWN1, 
 417, EV_RITATOWN2, 
 418, EV_RITATOWN3, 
