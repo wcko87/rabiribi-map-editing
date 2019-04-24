@@ -12,7 +12,7 @@ eventid, in-game event, function
 266, EV_VVVVVV, Triggers the system interior II endurance fight.
 267, EV_PYBOSS, Triggers Shadow Pandora fight.
 268, EV_HILLBOSS, Triggers Saya boss fight. Does not recruit Saya.
-269, EV_MAIDBOSS, Triggers Syaro boss fight. There are a lot of requirements (events 265, 357, 341)
+269, EV_MAIDBOSS, Triggers Syaro boss fight. There are a lot of requirements (events 265 357 and 341)
 270, EV_REACHISLANDTOTOWER, 
 271, EV_SNOWBOSS, Triggers Nieve boss fight. Enables event 272 and 390.
 272, EV_SNOWBOSSII, Triggers Nixie boss fight if event 271 is flagged. Recruits Nieve and Nixie.
@@ -117,7 +117,7 @@ eventid, in-game event, function
 373, EV_1STSHOP, 
 374, EV_1STSHOPB, 
 375, EV_ICELAND, Triggers the cutscene at the entrance of Northern Tundra.
-376, EV_TOWNPC2, Cutscene in which Cicini asks to find Syaro. Requires events 265, 357, 341.
+376, EV_TOWNPC2, Cutscene in which Cicini asks to find Syaro. Requires events 265; 357; 341.
 377, EV_MAIDBOT, Triggers Maid fight in lab.
 378, EV_GIVEKICK, Cutscene in which Miriam gives Bunny strike. Item is actually given.
 379, EV_DANCERB, Triggers Kotri2 boss fight (blue form). Enables event 295.
@@ -140,7 +140,7 @@ eventid, in-game event, function
 396, EV_SEANASAVE, Cutscene where Cicini tells you to meet Seana at the west gate of Rabi town. Requires having fought Cicini, Syaro, Nieve, Nixie, Vanilla, Chocolate and Seana1.
 397, EV_OPENING2, 
 398, EV_HILLBOSS2, Triggers final cutscene with Saya. Recruits Saya.
-399, EV_SEANASING, Triggers Seana2 boss fight. Requires having fought Nieve, Nixie, Cicini, Syaro, Vanilla, Chocolate and Seana1.
+399, EV_SEANASING, Triggers Seana2 boss fight. Requires having fought Nieve; Nixie; Cicini; Syaro; Vanilla; Chocolate and Seana1.
 400, EV_FINDBOX, 
 401, EV_CANNOTLEAVEHOSP, 
 402, EV_FIRSTBADGE, 
