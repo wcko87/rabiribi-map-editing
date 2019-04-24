@@ -125,7 +125,7 @@ eventid, in-game event, function
 381, EV_RABITOWNIN, Cutscene where Erina has just entered town.
 382, EV_SEEHIGHJUMP, 
 383, EV_OLDHOME, 
-384, EV_RUMISHOP, Allows use of consumables. Warning: without Ribbon, game crashes if you go to the magic type menu.
+384, EV_RUMISHOP, Allows use of consumables. Warning: without Ribbon game crashes if you go to the magic type menu.
 385, EV_PRPRBOT1, 
 386, EV_PRPRBOT2, 
 387, EV_PRPRBOT3, 
