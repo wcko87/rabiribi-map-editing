@@ -12,7 +12,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 10, PANDORA'S PALACE, 138, Golden Pyramid
 11, RABI RABI RAVINE, 139, 
 12, HOME SWEET HOME, 140, Rabi Rabi Town
-13, RABI RABI PARK, 141, 
+13, RABI RABI PARK, 141, Rabi-Rabi Park. Is replaced by Adventure starts here during prologue. Needs event 261 to be triggered properly.
 14, INSIDE UPRPRC, 142, 
 15, SKY ISLAND TOWN, 143, 
 16, WINTER WONDERLAND, 144, Azure Snowland
@@ -54,7 +54,7 @@ Music ID, Music Name, Music Trigger Event ID, Remarks
 52, M.R.,,
 53, MAIN MENU,,
 54, SUDDEN DEATH,,
-55, RABI RABI RAVINE VER.2, Upper Ravine DLC2 section, Even 482 plays this track.
+55, RABI RABI RAVINE VER.2,, Event 482 plays this track.
 56, AZURE,,
 57, ARTBOOK INTRO,,
 58, RABI-RIBI PIANO TITLE,,
