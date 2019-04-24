@@ -85,7 +85,7 @@ eventid, in-game event, function
 341, EV_BEFORECYBER, Cutscene where Erina finds the computer room in Lab. Warps Erina to town (area5) and gives 17500 EN. Requires event 357.
 342, EV_WATERWARNING, Cutscene in which Ribbon warns Erina about entering water areas. Doesn't play if Erina has water orb.
 343, EV_BOSS3B, 
-344, EV_IRISUBOSS, Triggers Irisu boss fight, recruits Irisu, plays credits and warps Erina in town (area5). 
+344, EV_IRISUBOSS, Triggers Irisu boss fight; recruits Irisu; plays credits and warps Erina in town (area5). 
 345, EV_CAVECRYSTALBOSS, Triggers Crystal boss fight. Does not recruit Ashuri. Only works if event 365 is flagged. Enables event 366.
 346, EV_ENTERLIBRARY, 
 347, EV_SHOPPINGCENTER, 
@@ -248,4 +248,4 @@ eventid, in-game event, function
 518, EV_B_MEMORYGREEN, same with Green bunny and event 514.
 519, EV_B_MEMORYPURPLE, same with Purple bunny and event 515.
 520, EV_UPDOWNRED, 
-521, EV_ALLJOINED2, Recruits Lilli, Pixie and Erina the forgotten Maiden.
+521, EV_ALLJOINED2, Recruits Lilli; Pixie and Erina the forgotten Maiden.
