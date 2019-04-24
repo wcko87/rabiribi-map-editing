@@ -137,7 +137,7 @@ eventid, in-game event, function
 393, EV_FORESTHELP1, 
 394, EV_FORESTHELP2, 
 395, EV_CRYSTALDANCER, Cutscene where Erina finds Pandora and Kotri looking for the Crystal. Requires event 365.
-396, EV_SEANASAVE, Cutscene where Cicini tells you to meet Seana at the west gate of Rabi town. Requires having fought Cicini, Syaro, Nieve, Nixie, Vanilla, Chocolate and Seana1.
+396, EV_SEANASAVE, Cutscene where Cicini tells you to meet Seana at the west gate of Rabi town. Requires having fought Cicini Syaro Nieve Nixie Vanilla Chocolate and Seana1.
 397, EV_OPENING2, 
 398, EV_HILLBOSS2, Triggers final cutscene with Saya. Recruits Saya.
 399, EV_SEANASING, Triggers Seana2 boss fight. Requires having fought Nieve; Nixie; Cicini; Syaro; Vanilla; Chocolate and Seana1.
