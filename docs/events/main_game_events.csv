@@ -56,7 +56,7 @@ eventid, in-game event, function
 312, EV_HIGHWAY, 
 313, EV_HIGHWAYBOSS, 
 314, EV_FINALBOSSX, 
-315, EV_RITA, 
+315, EV_RITA, Triggers Shadow Rita boss fight.
 316, EV_STG1, Triggers aerial fight with Lilith. Requires event 265 and 289 (Cicini and Lilith fight). Recruits Lilith and spawns you to starting location once she is beaten.
 317, EV_NOMORESTG1, Prevents Erina from going further is event 316 has been flagged.
 318, EV_GOLEM, 
