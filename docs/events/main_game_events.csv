@@ -74,7 +74,7 @@ eventid, in-game event, function
 330, EV_FINALLAB, 
 331, EV_REDBOT, Triggers Mr. Big Box fight.
 332, EV_SPRINGLAB, 
-333, EV_MAIDTEAM, 
+333, EV_MAIDTEAM, Triggers Maids fight in System Interior I.
 334, EV_RUINDOWN, Cutscene where Cicini tells Erina how to get to the lab. Requires event 357.
 335, EV_RUINWRONG, Another cutscene requiring 357.
 336, EV_RUINNEAR, idem.
@@ -166,7 +166,7 @@ eventid, in-game event, function
 422, EV_NONOFORM2, 
 423, EV_NONOFORM2B, 
 424, EV_NOTLAB, Erina takes a step back unless Cicini is defeated and event 357 is flagged.
-425, EV_PIT, 
+425, EV_PIT, Cutscene where Erina gets warned about laser holes in system interior I.
 426, EV_GOWEST, Cutscene where Ribbon suggests going to Rabi Rabi Park instead of Ravine.
 427, EV_UPRPRC3, Triggers UPRPRC boss fight in Night forest.
 428, EV_UPRPRC4, Triggers UPRPRC boss fight in Evernight peak.
