@@ -80,7 +80,7 @@ eventid, in-game event, function
 336, EV_RUINNEAR, idem.
 337, EV_IRISUSTALK1, Cutscene in which Erina sees Irisu running away (in the ruins).
 338, EV_CANENTERCYBER, 
-339, EV_PRPRBASEENTER, 
+339, EV_PRPRBASEENTER, Cutscene before Erina enters UPRPRC base.
 340, EV_CYBERCOUNTER, 
 341, EV_BEFORECYBER, Cutscene where Erina finds the computer room in Lab. Warps Erina to town (area5) and gives 17500 EN. Requires event 357.
 342, EV_WATERWARNING, Cutscene in which Ribbon warns Erina about entering water areas. Doesn't play if Erina has water orb.
@@ -123,19 +123,19 @@ eventid, in-game event, function
 379, EV_DANCERB, Triggers Kotri2 boss fight (blue form). Enables event 295.
 380, EV_RABITOWNOUT, Cutscene where Erina is about to enter Rabi Rabi Town.
 381, EV_RABITOWNIN, Cutscene where Erina has just entered town.
-382, EV_SEEHIGHJUMP, 
+382, EV_SEEHIGHJUMP, Cutscene where Erina is told to find Rabi slippers.
 383, EV_OLDHOME, 
 384, EV_RUMISHOP, Allows use of consumables. Warning: without Ribbon game crashes if you go to the magic type menu.
-385, EV_PRPRBOT1, 
-386, EV_PRPRBOT2, 
-387, EV_PRPRBOT3, 
-388, EV_COCOACAVE, 
+385, EV_PRPRBOT1, Triggers fight against yellow UPRPRC tank.
+386, EV_PRPRBOT2, Triggers fight against blue UPRPRC tank.
+387, EV_PRPRBOT3, Triggers fight against green UPRPRC tank.
+388, EV_COCOACAVE, Cutscene where Erina finds Cocoa in cave and she spawns a springboard. Needs events 382 and Rabi slippers.
 389, EV_NOTRIGHTBEFORERUMI, 
 390, EV_SNOWBOSSSAVE, Cutscene in which Nieve asks to find Nixie. Requires event 271.
 391, EV_RIBIFRIEND, Cutscene where Lilli and Pixie update diary with hint to Aurora Palace/hint is not given on diary if you have fought Nieve or if this flag is set directly
 392, EV_RIBIFRIEND2, Cutscene where Lilli and Pixie update diary with hint to Lilith and Aruraune/individual hints are not given on diary if you have fought the respective fights or if this flag is set directly
-393, EV_FORESTHELP1, 
-394, EV_FORESTHELP2, 
+393, EV_FORESTHELP1, Used in a former version of game. Cutscene where Aruraune asks for help.
+394, EV_FORESTHELP2, Cutscene where Aruraune asks for help.
 395, EV_CRYSTALDANCER, Cutscene where Erina finds Pandora and Kotri looking for the Crystal. Requires event 365.
 396, EV_SEANASAVE, Cutscene where Cicini tells you to meet Seana at the west gate of Rabi town. Requires having fought Cicini Syaro Nieve Nixie Vanilla Chocolate and Seana1.
 397, EV_OPENING2, 
@@ -167,7 +167,7 @@ eventid, in-game event, function
 423, EV_NONOFORM2B, 
 424, EV_NOTLAB, Erina takes a step back unless Cicini is defeated and event 357 is flagged.
 425, EV_PIT, 
-426, EV_GOWEST, 
+426, EV_GOWEST, Cutscene where Ribbon suggests going to Rabi Rabi Park instead of Ravine.
 427, EV_UPRPRC3, Triggers UPRPRC boss fight in Night forest.
 428, EV_UPRPRC4, Triggers UPRPRC boss fight in Evernight peak.
 429, EV_DARKAREA, Cutscene where Ribbon warns Erina about darkness. Erina does not take a step back.
