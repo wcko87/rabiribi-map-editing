@@ -212,7 +212,7 @@ These are events defined by GemaYue specifically for the map editor. These event
     IF Erina passes this event, turn on upward wind (status will not save to save file)
     - Upward wind is the effect during the Pixie & Lilli boss fight
     
-- **546 EV_CHANGECHARACTER**
+- **564 EV_CHANGECHARACTER**
 
     IF Erina passes this event, her sprite turns into that of entity N, where N is value of modifier.
     Modifier is 5000 + N and has to be set in the X+1 tile.
