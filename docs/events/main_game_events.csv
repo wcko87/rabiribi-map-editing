@@ -15,7 +15,7 @@ eventid, in-game event, function
 269, EV_MAIDBOSS, Triggers Syaro boss fight. There are a lot of requirements (events 265 357 and 341)
 270, EV_REACHISLANDTOTOWER, 
 271, EV_SNOWBOSS, Triggers Nieve boss fight. Enables event 272 and 390.
-272, EV_SNOWBOSSII, Triggers Nixie boss fight if event 271 is flagged. Recruits Nieve and Nixie.
+272, EV_SNOWBOSSII, Triggers Nixie boss fight if event 271 and 390 are flagged. Recruits Nieve and Nixie.
 273, EV_SNOWRM, 
 274, EV_PCTALKAFTERMAID, 
 275, EV_MAIDTELEPORT, Unused. Triggers a cutscene that warps Erina where she already is.
