@@ -129,7 +129,7 @@ eventid, in-game event, function
 385, EV_PRPRBOT1, Triggers fight against yellow UPRPRC tank.
 386, EV_PRPRBOT2, Triggers fight against blue UPRPRC tank.
 387, EV_PRPRBOT3, Triggers fight against green UPRPRC tank.
-388, EV_COCOACAVE, Cutscene where Erina finds Cocoa in cave and she spawns a springboard. Needs events 382 and Rabi slippers.
+388, EV_COCOACAVE, Cutscene where Erina finds Cocoa in cave and she spawns a springboard. Needs events 382 and 322.
 389, EV_NOTRIGHTBEFORERUMI, 
 390, EV_SNOWBOSSSAVE, Cutscene in which Nieve asks to find Nixie. Requires event 271.
 391, EV_RIBIFRIEND, Cutscene where Lilli and Pixie update diary with hint to Aurora Palace/hint is not given on diary if you have fought Nieve or if this flag is set directly
