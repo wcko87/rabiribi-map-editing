@@ -221,12 +221,12 @@ These are events defined by GemaYue specifically for the map editor. These event
     
 - **565 EV_CUSTOMTEXT**
 
-    Displays custom text LINE N at this tile where N is value of modifier. Modifier is 5000 + N and has to be set in the X+1 tile.Custom text is stored in  story_text.rbrb (a rbrb file start at line0, not 1).
+    Displays custom text LINE N at this tile where N is value of modifier. Modifier is 5000 + N and has to be set in the X+1 tile. Custom text is stored in story_text.rbrb (a rbrb file start at line0, not 1).
     e.g. To display dialogue line 10 from story_text.rbrb you need event 565 and modifier 5009 next to it.
       
 - **573 EV_EGGBLOCK**
     
-    This event has to be attached to a collision tile. The block breaks if egg collected >= N, Where N is value of modifier (For example , 5005 mean need 5 egg to break).
+    This event has to be attached to a collision tile. The block breaks if egg collected >= N, Where N is value of modifier (For example, 5005 mean need 5 egg to break).
     
 - **574 EV_EVENTBLOCK**
 
