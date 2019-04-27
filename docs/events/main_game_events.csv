@@ -71,7 +71,7 @@ eventid, in-game event, function
 327, EV_INLAB, Cutscene at the entrance of lab.
 328, EV_LASERLAB, Cutscene where Erina starts an alarm system in lab.
 329, EV_CAVELAB, Cutscene where Cicini talks about her room being in the lab (when entering sliding power room).
-330, EV_FINALLAB, 
+330, EV_FINALLAB, Cutscene where Erina finds the computer room in Lab. Warps Erina to town (area5) and gives 17500 EN. Requires event 357.
 331, EV_REDBOT, Triggers Mr. Big Box fight.
 332, EV_SPRINGLAB, 
 333, EV_MAIDTEAM, Triggers Maids fight in System Interior I.
@@ -82,7 +82,7 @@ eventid, in-game event, function
 338, EV_CANENTERCYBER, 
 339, EV_PRPRBASEENTER, Cutscene before Erina enters UPRPRC base.
 340, EV_CYBERCOUNTER, 
-341, EV_BEFORECYBER, Cutscene where Erina finds the computer room in Lab. Warps Erina to town (area5) and gives 17500 EN. Requires event 357.
+341, EV_BEFORECYBER, 
 342, EV_WATERWARNING, Cutscene in which Ribbon warns Erina about entering water areas. Doesn't play if Erina has water orb.
 343, EV_BOSS3B, 
 344, EV_IRISUBOSS, Triggers Irisu boss fight; recruits Irisu; plays credits and warps Erina in town (area5). 
@@ -160,7 +160,7 @@ eventid, in-game event, function
 416, EV_RITATOWN1, 
 417, EV_RITATOWN2, 
 418, EV_RITATOWN3, 
-419, EV_POSTGAME1, 
+419, EV_POSTGAME1, Initiates chapter 6.
 420, EV_RITASAYA, Cutscene in which Erina sees Saya and Rita in Volcanic caverns. Requires chapter 6.
 421, EV_ERINA, 
 422, EV_NONOFORM2, 
@@ -213,7 +213,7 @@ eventid, in-game event, function
 483, EV_FALLHILL, Erina takes fall damage and her position is reset to the edge of the screen. Works outside of DLC 2.
 484, EV_PIXIELILLI, Triggers Lilli and Pixie boss fight.
 485, EV_ESCAPE, Triggers the escape event. Wind appears and all blocks with event 160 on them turn solid until event 486 is reached.
-486, EV_ESCAPEEND, Ends the escape and chapter 9. Erina warps to area3 and to area 5. Fairies flute is given to Erina and event 494 is automatically initiated.
+486, EV_ESCAPEEND, Ends the escape and chapter 9. Erina warps to area3 and to area5. Fairies flute is given to Erina and event 494 is automatically enabled.
 487, EV_HILLENTER, 
 488, EV_PUZZLECLEAR, 
 489, EV_FOUNDQB, 
