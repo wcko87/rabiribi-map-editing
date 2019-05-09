@@ -224,6 +224,22 @@ These are events defined by GemaYue specifically for the map editor. These event
     Displays custom text LINE N at this tile where N is value of modifier. Modifier is 5000 + N and has to be set in the X+1 tile. Custom text is stored in story_text.rbrb (a rbrb file start at line0, not 1).
     e.g. To display dialogue line 10 from story_text.rbrb you need event 565 and modifier 5009 next to it.
       
+      
+- **570 EV_SETCHAPTER**
+    
+    This event changes the chapter of the game and is set in the X+1 tile.
+      
+      
+- **571 EV_ENEMYHPMOD**
+    
+    This event changes the amount of health enemies have. It is a % of the regular health and is set in the X+1 tile. Using 0 uses the default value of 100%. Ex. X+1 tile is 50 = 50% health. X+1 tile is 600 = 600% health.
+      
+      
+- **572 EV_ENEMYDMGMOD**
+    
+    Similar to the event 571, but changes the damage multiplier instead of health multiplier. Again, uses the X+1 tile. 0 = 100%. 50 = 50% damage, 600 = 600% damage
+
+
 - **573 EV_EGGBLOCK**
     
     This event has to be attached to a collision tile. The block breaks if egg collected >= N, Where N is value of modifier (For example, 5005 mean need 5 egg to break).
