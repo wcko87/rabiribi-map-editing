@@ -77,7 +77,7 @@ eventid, in-game event, function
 333, EV_MAIDTEAM, Triggers Maids fight in System Interior I.
 334, EV_RUINDOWN, Cutscene where Cicini tells Erina how to get to the lab. Requires event 357.
 335, EV_RUINWRONG, Another cutscene requiring 357.
-336, EV_RUINNEAR, idem.
+336, EV_RUINNEAR, Same as above.
 337, EV_IRISUSTALK1, Cutscene in which Erina sees Irisu running away (in the ruins).
 338, EV_CANENTERCYBER, 
 339, EV_PRPRBASEENTER, Cutscene before Erina enters UPRPRC base.
@@ -229,20 +229,20 @@ eventid, in-game event, function
 499, EV_CHANGECLOTH, 
 500, EV_RIBIFRIENDDLC, 
 501, EV_ERINAMEMORY1, Cutscene with Erina and Erina the forgotten maiden.
-502, EV_ERINAMEMORY2, idem.
-503, EV_ERINAMEMORY3, idem.
-504, EV_ERINAMEMORY4, idem.
-505, EV_ERINAMEMORY5, idem.
-506, EV_ERINAMEMORY6, idem.
-507, EV_ERINAMEMORY7, idem.
-508, EV_ERINAMEMORY8, idem.
+502, EV_ERINAMEMORY2, same as above.
+503, EV_ERINAMEMORY3, same as above.
+504, EV_ERINAMEMORY4, same as above.
+505, EV_ERINAMEMORY5, same as above.
+506, EV_ERINAMEMORY6, same as above.
+507, EV_ERINAMEMORY7, same as above.
+508, EV_ERINAMEMORY8, same as above.
 509, EV_VSERINA_CHECKPOINT, 
 510, EV_DLCBLOCK, 
 511, EV_____________, 
 512, EV_MEMORYRED, DLC2 HoM2 blocks. Can be used as switch/door if DLC 2 is installed.
-513, EV_MEMORYBLUE, idem.
-514, EV_MEMORYGREEN, idem.
-515, EV_MEMORYPURPLE, idem.
+513, EV_MEMORYBLUE, same as above.
+514, EV_MEMORYGREEN, same as above.
+515, EV_MEMORYPURPLE, same as above.
 516, EV_B_MEMORYRED, Triggers fight against Red bunny in HoM2. Breaks blocks with event 512.
 517, EV_B_MEMORYBLUE, same with Blue bunny and event 513.
 518, EV_B_MEMORYGREEN, same with Green bunny and event 514.
