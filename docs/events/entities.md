@@ -97,7 +97,7 @@ If the entity is not listed here, it just spawns in an Erina. Usually a small on
 - **[1018] Cicini**
 
 - **[1019] Red laser**
-  - Fires left. Deals significantly less damage than event 1008.
+  - Fires right. Deals significantly less damage than event 1008.
   - Direction can be changed with all direction modifiers.
   - Place an entity with ID in the range of 200 .. 205 below this entity to change the timing of when the laser fires.
   - Laser hitbox is wider when used in map 9. (area9.map)
