@@ -1,7 +1,7 @@
 # Rabi-Ribi Custom Maps
 
 User-created Rabi-Ribi Maps can be found here:
-- [**Rabi-Ribi Steam Workshop - Standard Maps**](https://steamcommunity.com/workshop/browse/?appid=400910requiredtags[]=Map+-+Standard)
+- [**Rabi-Ribi Steam Workshop - Standard Maps**](https://steamcommunity.com/workshop/browse/?appid=400910&requiredtags[]=Map+-+Standard)
 - [**Rabi-Ribi Steam Workshop - Bun Race Maps**](https://steamcommunity.com/workshop/browse/?appid=400910&requiredtags[]=Map+-+Bun+Race)
 - [**Custom Maps Portal**](https://wcko87.github.io/rabi-ribi-maps/)
 
