@@ -270,3 +270,7 @@ These are events defined by GemaYue specifically for the map editor. These event
 
     These events work in reverse. They spawn if event N is flagged, where N is this event id.
     e.g. To make a block which has collision and event 581 attached appear, Erina needs to pass through a 581 event.
+    
+- **586 EV_COCOABLOCK**
+
+    When attached to a collision tile, the block breaks if the player is Cocoa.
